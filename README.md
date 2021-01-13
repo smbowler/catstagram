@@ -54,11 +54,11 @@ INTERNAL TODO: Insert picture of file structure from gitpod
 
 INTERNAL TODO: Add file names markdown language look like
 
-#### TODO #3: Find/Fix the Errors
-* Read the error, find what line the error is on, click on the link to the brain.js file
-* Go back to Gitpod, remove the error so that the javascript file is empty.
-* Save your work in Gitpod by click "Ctrl S" or File > Save
-* Return to Chrome and refresh the page. Recheck the console for errors. You should see a no more error on line 1 of brain.js.
+    #### TODO #3: Find/Fix the Errors
+    * Read the error, find what line the error is on, click on the link to the brain.js file
+    * Go back to Gitpod, remove the error so that the javascript file is empty.
+    * Save your work in Gitpod by click "Ctrl S" or File > Save
+    * Return to Chrome and refresh the page. Recheck the console for errors. You should see a no more error on line 1 of brain.js.
 
 
 #### What is Github and how do you use it?
