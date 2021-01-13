@@ -38,23 +38,23 @@ INTERNAL TODO: Insert picture of file structure from gitpod
 
 
 #### Todo #1: Investigate/Preview Index.html file
-* Open the index.html file in Gitpod and look it over
-* Ask the questions:
-    * Do I know what each of these lines of html do?
-    * What should I expect to see when I preview this file? *Hint: What's inside the body tag?*
-    * Do I see any errors, any opening tags or closing tags that are wrong?
-* Right click on the file index.html and click "Preview with LiveServer"
-* Ask the question: 
-    * Was I right? Am I seeing what I expected to see?
-* Fix the errors in the html
+    * Open the index.html file in Gitpod and look it over
+    * Ask the questions:
+        * Do I know what each of these lines of html do?
+        * What should I expect to see when I preview this file? *Hint: What's inside the body tag?*
+        * Do I see any errors, any opening tags or closing tags that are wrong?
+    * Right click on the file index.html and click "Preview with LiveServer"
+    * Ask the question: 
+        * Was I right? Am I seeing what I expected to see?
+    * Fix the errors in the html
 
 #### Todo # 2: Open the Console
-* Right click the page and select "Inspect"
-* Choose the tab labeled "Console"
+    * Right click the page and select "Inspect"
+    * Choose the tab labeled "Console"
 
 INTERNAL TODO: Add file names markdown language look like
 
-    #### TODO #3: Find/Fix the Errors
+#### TODO #3: Find/Fix the Errors
     * Read the error, find what line the error is on, click on the link to the brain.js file
     * Go back to Gitpod, remove the error so that the javascript file is empty.
     * Save your work in Gitpod by click "Ctrl S" or File > Save
