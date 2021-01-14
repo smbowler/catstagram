@@ -148,10 +148,15 @@ review all of your work and check for the following:
 
     
 #### TODO #9: Push your code to Github
-
-
-
-##### What is @$%@ is Github and how do you use it?
+* First, open a terminal window by clicking at the top Window > New Terminal
+* Then run each of the following commands one by one:
+    * ```git add .  ``` then hit Enter. Don't forget the ```.```
+    * ```git commit -m 'insert specific message about what you are saving'``` 
+          This second command can be tricky.You want to write a message inside the qoutation marks that describes what you are changing. 
+          Think of this as a sticky note message. Press Enter. 
+    * ```git push``` then press Enter. 
+    * If you successfully ran these commands one at a time, your terminal window should look like this:
+       <img src="img/successful_push.png" style="max-height: 450px">
 
 #### Part I Guiding Questions
 * What is the file tree?
