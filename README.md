@@ -19,8 +19,9 @@ pictures of...cats.
 * Whether you choose to pursue a career building world-changing software or you become a musician, knowing how applications
 work will open up an entirely new world to you, while also making you a more engaged, thoughtful member of society. 
 
+## Part I: Things to Know
 
-## A Universal Diagram
+## INTERNAL TODO: A Universal Diagram
 
 ## File Structure / File Tree
 INTERNAL TODO: Insert picture of file structure from gitpod
@@ -31,9 +32,23 @@ INTERNAL TODO: Insert picture of file structure from gitpod
         * This is the javascript file, the brains of the operation.
     * **favicon.ico**
         * This is the icon that appears on the tab in the browser. It stands for "favorite icon"
-        
+
+## What is Github and Why/How Do you use it? 
+
+###What is Github?
+ * Just like you save your work in Google Drive for school, software developers save their code in something called
+ Github. 
+ * When we did setup for this class, you created a repository for your code to live. You can think of a repository (repo for short),
+ as a folder or locker for your code. 
+ * Inside the locker, you put all of the files, images, and graphics you need to run
+ your application. 
+ ###Why do software developers use it?
+ * Just like when you build a house, you can have multiple people working at the same time - painting, hanging drywall, etc - you can do the same thing with code.
+ * It's important that everyone working on software be able to save their work in one place, so that everyone
+ can know what progress has been made. 
+ * Github allows developers to save their code so that everyone can see it, just like Google Drive. 
  
-## Part I: Preview index.html + Check for errors
+## Part II: Preview index.html + Check for errors
 Below you will find instructions on what TODO to build Catstagram. Take each bulletpoint one by one. Work in Google Chrome Incognito. 
 There are **nine** TODOs in Part I. Complete each one!
 
@@ -107,7 +122,7 @@ Next, we are going to investigate Instagram and determine what else needs to be 
     * When you finish, review your work above
     
 #### TODO #8: Review your work and check for errors
-A good developer always reviews his work before he commits it. Don't worry, you'll learn what a commit is in a second. For now, 
+A good developer always reviews his work before she commits it. Don't worry, you'll learn what a commit is in a second. For now, 
 review all of your work and check for the following:
 
     * Correct indentation
@@ -123,10 +138,10 @@ review all of your work and check for the following:
 
 ##### What is @$%@ is Github and how do you use it?
 
-#### Guiding Questions
+#### Part I Guiding Questions
 * What is the file tree?
+* What is a favicon?
 * What does it mean to "inspect the page"? How do you get to the console of a page?
 * What does src stand for?
-* What does Full Stack mean?
-* What does it mean when an application authenticates a user?
-* What is a favicon?
+* What is Github? What are the commands to add your code
+
