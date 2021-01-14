@@ -1,4 +1,4 @@
-# Catstagram  <img src="img/favicon.ico" style="max-height: 30px">
+# Catstagram  <img src="favicon.ico" style="max-height: 30px">
 A full-stack of a web-based application, modeled after Instagram but with cats. 
 
 ## First, Answer This Question
