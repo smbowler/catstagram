@@ -35,14 +35,14 @@ INTERNAL TODO: Insert picture of file structure from gitpod
 
 ## What is Github and Why/How Do you use it? 
 
-###What is Github?
+### What is Github?
  * Just like you save your work in Google Drive for school, software developers save their code in something called
  Github. 
  * When we did setup for this class, you created a repository for your code to live. You can think of a repository (repo for short),
  as a folder or locker for your code. 
  * Inside the locker, you put all of the files, images, and graphics you need to run
  your application. 
- ###Why do software developers use it?
+ ### Why do software developers use it?
  * Just like when you build a house, you can have multiple people working at the same time - painting, hanging drywall, etc - you can do the same thing with code.
  * It's important that everyone working on software be able to save their work in one place, so that everyone
  can know what progress has been made. 
