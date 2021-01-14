@@ -21,9 +21,9 @@ work will open up an entirely new world to you, while also making you a more eng
 
 ## Part I: Things to Know
 
-## INTERNAL TODO: A Universal Diagram
+### INTERNAL TODO: A Universal Diagram
 
-## File Structure / File Tree
+### File Structure / File Tree
 INTERNAL TODO: Insert picture of file structure from gitpod
 * This project, like most projects, has its own folder, that contains the following:
     * **index.html page:**
@@ -33,21 +33,21 @@ INTERNAL TODO: Insert picture of file structure from gitpod
     * **favicon.ico**
         * This is the icon that appears on the tab in the browser. It stands for "favorite icon"
 
-## What is Github and Why/How Do you use it? 
+### What is Github and Why/How Do you use it? 
 
-### What is Github?
+#### What is Github?
  * Just like you save your work in Google Drive for school, software developers save their code in something called
  Github. 
  * When we did setup for this class, you created a repository for your code to live. You can think of a repository (repo for short),
  as a folder or locker for your code. 
  * Inside the locker, you put all of the files, images, and graphics you need to run
  your application. 
- ### Why do you use it?
+ #### Why do you use it?
  * Just like when you build a house, you can have multiple people working at the same time - painting, hanging drywall, etc - you can do the same thing with code.
  * It's important that everyone working on software be able to save their work in one place, so that everyone
  can know what progress has been made. 
  * Github allows developers to save their code so that everyone can see it, just like Google Drive. 
- ### How do you use it?
+ #### How do you use it?
  * First, go to Window > New Terminal in Gitpod. 
     * This will open up the terminal or bash window, which allows
  you to talk directly to your computer. Believe it or not, the first computer was just this window!
