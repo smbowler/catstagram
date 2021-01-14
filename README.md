@@ -158,7 +158,7 @@ review all of your work and check for the following:
     * If you successfully ran these commands one at a time, your terminal window should look like this:
        <img src="img/successful_push.png" style="max-height: 450px">
 
-#### Part I Review Questions
+## Part I and II Review Questions
 * What is the file tree?
 * What is a favicon?
 * What does it mean to "inspect the page"? How do you get to the console of a page?
