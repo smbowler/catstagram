@@ -42,11 +42,26 @@ INTERNAL TODO: Insert picture of file structure from gitpod
  as a folder or locker for your code. 
  * Inside the locker, you put all of the files, images, and graphics you need to run
  your application. 
- ### Why do software developers use it?
+ ### Why do you use it?
  * Just like when you build a house, you can have multiple people working at the same time - painting, hanging drywall, etc - you can do the same thing with code.
  * It's important that everyone working on software be able to save their work in one place, so that everyone
  can know what progress has been made. 
  * Github allows developers to save their code so that everyone can see it, just like Google Drive. 
+ ### How do you use it?
+ * First, go to Window > New Terminal in Gitpod. 
+    * This will open up the terminal or bash window, which allows
+ you to talk directly to your computer. Believe it or not, the first computer was just this window!
+ * Once the terminal is open, you are going to run three different commands, pressing enter after each one. 
+ * The first command: 
+    * ```git add .  ``` then hit Enter. Don't forget the ```.```
+    * ```git commit -m 'insert specific message about what you are saving'``` 
+    This second command can be tricky.You want to write a message inside the qoutation marks that describes what you are changing. 
+    Think of this as a sticky note message. Press Enter. 
+    * ```git push``` then press Enter. 
+ * If you successfully ran these commands one at a time, your terminal window should look like this:
+ <img src="img/successful_push.png" style="max-height: 450px">
+
+ 
  
 ## Part II: Preview index.html + Check for errors
 Below you will find instructions on what TODO to build Catstagram. Take each bulletpoint one by one. Work in Google Chrome Incognito. 
