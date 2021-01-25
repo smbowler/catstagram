@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8769fa6d-4b63-4c7b-8ef2-915bf05e5133" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/about.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/img/ig_screenshot.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/img/console_like.png" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/brains.js" afterPath="$PROJECT_DIR$/brains.js" />
-      <change beforePath="$PROJECT_DIR$/complete.html" afterPath="$PROJECT_DIR$/complete.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,9 +22,11 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="334">
-                <caret line="390" column="17" lean-forward="false" selection-start-line="390" selection-start-column="17" selection-end-line="390" selection-end-column="17" />
-                <folding />
+              <first_editor relative-caret-position="210">
+                <caret line="354" column="3" lean-forward="false" selection-start-line="354" selection-start-column="3" selection-end-line="354" selection-end-column="3" />
+                <folding>
+                  <marker date="1611593011000" expanded="true" signature="19689:20034" ph="unordered list: * What is the file tre... code" />
+                </folding>
               </first_editor>
               <second_editor />
             </state>
@@ -205,12 +204,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610561908233</updated>
-      <workItem from="1610561909385" duration="32469000" />
+      <workItem from="1610561909385" duration="32701000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32469000" />
+    <option name="totallyTimeSpent" value="32701000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -233,7 +232,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939634" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29790026" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19291338" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -327,9 +326,11 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="334">
-            <caret line="390" column="17" lean-forward="false" selection-start-line="390" selection-start-column="17" selection-end-line="390" selection-end-column="17" />
-            <folding />
+          <first_editor relative-caret-position="210">
+            <caret line="354" column="3" lean-forward="false" selection-start-line="354" selection-start-column="3" selection-end-line="354" selection-end-column="3" />
+            <folding>
+              <marker date="1611593011000" expanded="true" signature="19689:20034" ph="unordered list: * What is the file tre... code" />
+            </folding>
           </first_editor>
           <second_editor />
         </state>

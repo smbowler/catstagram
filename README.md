@@ -350,7 +350,10 @@ write the function called  ```likePhoto``` in the brain.js file
     b) Write a function called "likePhoto" that prints the word "Like" to the console.
     c) Save your work in Gitpod
     d) Navigate to Chrome, inspect the page, open the console and test the function!
-    e) You should see the word "like" printed to the console each time you press the button.
+    e) You should see the word "like" printed to the console each time you press the button, like this:
+  
+   <img src="img/console_like.png" style="max-height: 450px">
+
     
 
 #### TODO #23: Create a variable to store the number of likes!
