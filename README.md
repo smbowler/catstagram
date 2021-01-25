@@ -5,7 +5,7 @@ A full-stack of a web-based application, modeled after Instagram but with cats.
 *Start here young padouan and riddle us this question:*
 * Do you use Instagram, Twitch, or Soundcloud, or any other web application? Do you *actually* know how they work? **PAUSE.**
 * If the answer was *"No,"* that's okay. Even though over a billion people use these applications, 99.9%
-of them don't either. **We want you to be in that .01%** of 
+of them don't either. **We want you to be in that .1%** of 
 people that can explain to your friends and family exactly how every web-based project works, front to back. 
 
 ## How?
@@ -46,7 +46,10 @@ INTERNAL TODO: Insert picture of file structure from gitpod
  * Just like when you build a house, you can have multiple people working at the same time - painting, hanging drywall, etc - you can do the same thing with code.
  * It's important that everyone working on software be able to save their work in one place, so that everyone
  can know what progress has been made. 
- * Github allows developers to save their code so that everyone can see it, just like Google Drive. 
+ * Github allows developers to save their code so that everyone can see it, just like Google Drive.
+ ####When do you use it?
+  * When you are ready to take a project live so that it will show up on your portfolio website, you will follow the instructions below.
+  
  #### How do you use it?
  * First, go to Window > New Terminal in Gitpod. 
     * This will open up the terminal or bash window, which allows
@@ -91,7 +94,7 @@ INTERNAL TODO: Add file names markdown language look like
 #### TODO #3: Find/Fix the Errors
     * Read the error, find what line the error is on, click on the link to the brain.js file
     * Go back to Gitpod, remove the error so that the javascript file is empty.
-    * Save your work in Gitpod by click "Ctrl S" or File > Save
+    * Save your work in Gitpod by typing "Ctrl S" or File > Save
     * Return to Chrome and refresh the page. Recheck the console for errors. You should see a no more error on line 1 of brain.js.
 
 ## Part II: Build The Structure of Catstagram with HTML
@@ -164,4 +167,124 @@ review all of your work and check for the following:
 * What does it mean to "inspect the page"? How do you get to the console of a page?
 * What does src stand for?
 * What is Github? What are the commands to add your code
+
+## Part III: Make Catstagram Look Modern
+Now that you have 5 photos of cats on your Catstagram, let's take a step back and ask ourselves a question: 
+**Does this site look like a modern web applications?** Notice, the question is not - does the site look ***good***? This is subjective. 
+Beauty is in the eye of the beholder. Discuss for a minute. 
+
+#### Investigate and Discuss
+We have already done some coding. From the options below, what have we built so far? 
+
+1. Javascript
+2. Database
+3. HTML
+4. CSS
+5. All of the Above
+
+Yes, we have already built the **structure and content** of the website, the HTML.
+Next, in order to make the site look pretty, from the list above what language are we going to use? 
+ 
+#### TODO #10: Add Style Tags in the Head
+In order to start adding CSS, we have to add ```<style> </style>``` tags into the head of 
+our ```index.html``` file. Inside of the opening and closing ```style``` tags, we'll put all of the CSS rules
+that will make Catstagram look modern. 
+
+    a) Locate the ```<head>``` tag
+    b) Locate inside the ```<head>``` tag and underneath the ```<script></script>``` tag, what line number is this?
+    c) Add an opening and closing ```<style></style>``` tags
+    d) Now, "open up" the ```style``` tag by putting your cursor in between the opening and closing tags
+    and pressing enter. It should look like this: 
+<img src="img/open_style_tag.png" style="max-height: 450px">
+    
+    e) Save your work in Gitpod
+
+ 
+#### TODO #11: Style the Title and Subtitle
+
+    a) Inside the inside the ```<style>``` tag, add a class called "brand-font" that has one property 
+    of font-style with a value of 'italic'. Don't forget the semi-colon!
+    b) Add that class inside the opening tag of your <h1> and <h5> tags
+    c) Save your work in Gitpod
+    d) Return to Chrome and refresh the page. You should see your Title and Sub-title in italics
+
+#### TODO #12: Style the Images
+
+    a) Inside the inside the ```<style>``` tag, add a CSS rule for all <img> tags that makes all images the same width:
+        * Selects a property of "width"
+        * Adds a value of 300px
+    b) Save your work in Gitpod
+    c) Return to Chrome and refresh the page. You should see all of your pics have the same width
+
+#### TODO #12: Add Some Space Underneath the Captions
+When you look at your Catstagram, it is kind of hard to tell which captions
+are with which photos. In order to make this more clear, we're going to add some 
+space underneath each of captions. 
+
+    a) Inside the inside the ```<style>``` tag, add a class called "comment". Don't foget the period before
+    the class name!
+    b) The class ```.comment``` should set the following rule:
+        * margin-bottom: 70px
+    c) Save your work in Gitpod
+    d) Return to Chrome and refresh the page. You should see space underneath all of your comments
+    
+    
+#### TODO #13: Open the Console and Select an Element
+When we are working with CSS, it is really helpful to use the Developer Tools to experiment 
+with different styles. In order to do this, follow the steps below:
+
+    a) Right click the page and select "Inspect"
+    b) Click on the icon in the top left corner of the Inspect Tools window. When
+    you have selected it, it will turn blue like below:
+<img src="img/inspect_tool.png" style="max-height: 450px">
+
+    c) Once that icon is blue, hover over the caption on your Catstagram page. It
+    will turn a different color, like below:
+<img src="img/hover_over.png" style="max-height: 450px">
+
+    d) Click on the caption and then look in the bottom section of the 
+    Developer Tools. You should see your css rule called comment, like below:
+<img src="img/comment.png" style="max-height: 450px">
+
+    e) Now click on the property value, where it says "70px" and using your up and down arrow keys,
+    play around with the value while observing what is happening on your page. 
+    f)Refresh the page. Notice, did your changes stick?
+    
+#### TODO #14: Review your work and check for errors
+A good developer always reviews her work before she commits it. Review all of your work and check for the following:
+
+    * Correct indentation in the CSS rules
+    * Semi-colons at the end of each property
+    * All TODOs are complete
+    
+    
+#### TODO #15: Push your code to Github
+    * First, open a terminal window by clicking at the top Window > New Terminal
+    * Then run each of the following commands one by one:
+        * ```git add .  ``` then hit Enter. Don't forget the ```.```
+        * ```git commit -m 'insert specific message about what you are saving'``` 
+              This second command can be tricky.You want to write a message inside the qoutation marks that describes what you are changing. 
+              Think of this as a sticky note message. Press Enter. 
+        * ```git push``` then press Enter. 
+        * If you successfully ran these commands one at a time, your terminal window should look like this:
+           <img src="img/successful_push.png" style="max-height: 450px">
+        * Checkout the live site on your portfolio and make sure the changes are appearing.
+    
+
+## Part IV: Give Catstagram Some Functionality
+
+#### Investigate and Discuss
+We're making progress. From the options below, what have we built so far? 
+
+1. Javascript
+2. Database
+3. HTML
+4. CSS
+5. All of the Above
+
+Yes, we have already built the **structure and content** of the website, the HTML, and we have styled it using CSS. 
+Next, in order to make the site have functionality, from the list above what language are we going to use? 
+
+#### TODO #16: Add A Heart Button above each Caption
+
 
