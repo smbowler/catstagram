@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8769fa6d-4b63-4c7b-8ef2-915bf05e5133" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/img/console_like.png" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/img/console_like.png" afterPath="$PROJECT_DIR$/img/console_like.png" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,8 +21,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="210">
-                <caret line="354" column="3" lean-forward="false" selection-start-line="354" selection-start-column="3" selection-end-line="354" selection-end-column="3" />
+              <first_editor relative-caret-position="255">
+                <caret line="357" column="0" lean-forward="true" selection-start-line="357" selection-start-column="0" selection-end-line="357" selection-end-column="0" />
                 <folding>
                   <marker date="1611593011000" expanded="true" signature="19689:20034" ph="unordered list: * What is the file tre... code" />
                 </folding>
@@ -204,12 +203,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610561908233</updated>
-      <workItem from="1610561909385" duration="32701000" />
+      <workItem from="1610561909385" duration="32772000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32701000" />
+    <option name="totallyTimeSpent" value="32772000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -326,8 +325,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="210">
-            <caret line="354" column="3" lean-forward="false" selection-start-line="354" selection-start-column="3" selection-end-line="354" selection-end-column="3" />
+          <first_editor relative-caret-position="255">
+            <caret line="357" column="0" lean-forward="true" selection-start-line="357" selection-start-column="0" selection-end-line="357" selection-end-column="0" />
             <folding>
               <marker date="1611593011000" expanded="true" signature="19689:20034" ph="unordered list: * What is the file tre... code" />
             </folding>
