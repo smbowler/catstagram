@@ -44,7 +44,7 @@ that will make Catstagram look modern.
 
 #### TODO #10: Style the Images
 
-    a) Inside the inside the  <style>  tag, add a CSS rule for all <img> tags that makes all images the same width:
+    a) Inside the inside the `<style>` tag, add a CSS rule for all <img> tags that makes all images the same width:
         * Selects a property of "width"
         * With a value of 300px
     b) Save your work in Gitpod
