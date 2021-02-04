@@ -75,7 +75,24 @@ it keeps track of the number of likes on each photo. How can we do this?
     c) Save your work in Gitpod
     d) Return to Chrome and open the console to see if likeCount is increasing.
     
-    
+
+#### TODO #?: Add a Heart Image to each Button
+Just like on Instagram, we now want to add a heart image to each button, which we will
+turn red if you like the photo!
+
+        a)Look inside the 'img' folder and locate the 'heart_btn.jpg' image
+        b)In between the opening and closing  <button></button>  tags, add an <img> tag, with the following attributes:
+           id="heart_btn"
+           src="img/heart_btn.jpg"
+        c)Inside the  <style></style>  tag in the head, add the following class:
+        
+               #heart_btn{
+                          width: 23px;
+                        }
+#### TODO #?: Adjust the likes with each click of the Heart Button
+Now that we have  a true LIKE button, we want to adjust the number of likes that are visible on the
+page to a user. In order to do this, we're going to use a library called JQuery, which allows us
+to manipulate the HTML in a page through javascript.       
    
 #### TODO #23: Review your work and check for errors
 A good developer always reviews her work before she commits it. Review all of your work and check for the following:

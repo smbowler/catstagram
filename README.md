@@ -21,8 +21,6 @@ work will open up an entirely new world to you, while also making you a more eng
 
 ## Part I: Things to Know
 
-### INTERNAL TODO: A Universal Diagram
-
 ### File Structure / File Tree
 INTERNAL TODO: Insert picture of file structure from gitpod
 * This project, like most projects, has its own folder, that contains the following:
