@@ -1,5 +1,9 @@
+# Catstagram  <img src="favicon.ico" style="max-height: 30px">
+A full-stack of a web-based application, modeled after Instagram but with cats. 
+
 ## Part III: Make Catstagram Look Modern using CSS
 Now that you have 5 photos of cats on your Catstagram, let's take a step back and ask ourselves a question: 
+
 **Does this site look like a modern web application? Does it look like applications that I like to use?** Notice, the question is not - does the site look ***good***? This is subjective. 
 Beauty is in the eye of the beholder. Discuss for a minute. 
 
