@@ -116,7 +116,7 @@ A good developer always reviews her work before she commits it. Review all of yo
         * ```git push``` then press Enter. 
         * If you successfully ran these commands one at a time, your terminal window should look like this:
            
- <img src="./img/successful_push.png" style="max-height: 450px">
+ <img src="../img/successful_push.png" style="max-height: 450px">
         
         * Checkout the live site on your portfolio and make sure the changes are appearing.
 
