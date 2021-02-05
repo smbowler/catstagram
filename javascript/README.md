@@ -85,7 +85,7 @@ turn red if you like the photo!
         a)Look inside the 'img' folder and locate the 'heart_btn.jpg' image
         b)In between the opening and closing  <button></button>  tags, add an <img> tag, with the following attributes:
            id="heart_btn"
-           src="./img/heart_btn.jpg"
+           src="img/heart_btn.jpg"
         c)Inside the  <style></style>  tag in the head, add the following class:
         
                #heart_btn{
@@ -115,7 +115,9 @@ A good developer always reviews her work before she commits it. Review all of yo
               Think of this as a sticky note message. Press Enter. 
         * ```git push``` then press Enter. 
         * If you successfully ran these commands one at a time, your terminal window should look like this:
-           <img src="./img/successful_push.png" style="max-height: 450px">
+           
+ <img src="./img/successful_push.png" style="max-height: 450px">
+        
         * Checkout the live site on your portfolio and make sure the changes are appearing.
 
 
