@@ -24,12 +24,24 @@ work will open up an entirely new world to you, while also making you a more eng
 ### File Structure / File Tree
 INTERNAL TODO: Insert picture of file structure from gitpod
 * This project, like most projects, has its own folder, that contains the following:
+    * **CSS Folder:**
+        * This folder contains the README for Part III of this project that deals with styling Catstagram. 
+        When you're ready to start Part III, navigate to the CSS folder and scroll down to see the README file, 
+        just like you did when you opened up this repo.
+    * **javascript folder:**
+        * This folder contains the README for Part IV of this project, when you are going to give
+        Catstagram some functionality using javascript. 
     * **index.html page:**
         * This is the page that the browser loads and is the file that you should preview when you want to see an application
-    * **brains.js**:
-        * This is the javascript file, the brains of the operation.
+    * **reflection.html**
+        * This file contains questions that we'll be answering as we move through this project. When there is
+        a reflection question, you will add your question inside of a <p></p> tag.
+    *  **img folder**:
+        * This is a folder that contains images that are used throughout this README and images that you will use in this project (specifically the heart icon from Instagram).
     * **favicon.ico**
         * This is the icon that appears on the tab in the browser. It stands for "favorite icon"
+    * **README**
+        * This is the file that you are reading right now, that describes what this project is all about and how to proceed through it.   
 
 ### What is Github and Why/How Do you use it? 
 

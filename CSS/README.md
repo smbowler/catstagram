@@ -29,7 +29,7 @@ that will make Catstagram look modern.
     c) Add an opening and closing  <style></style>  tags
     d) Now, "open up" the <style> tag by putting your cursor in between the opening and closing tags
     and pressing enter. It should look like this: 
-<img src="img/open_style_tag.png" style="max-height: 450px">
+<img src="../img/open_style_tag.png" style="max-height: 450px">
     
     e) Save your work in Gitpod
 
@@ -70,15 +70,15 @@ with different styles. In order to do this, follow the steps below:
     a) Right click the page and select "Inspect"
     b) Click on the icon in the top left corner of the Inspect Tools window. When
     you have selected it, it will turn blue like below:
-<img src="img/inspect_tool.png" style="max-height: 450px">
+<img src="../img/inspect_tool.png" style="max-height: 450px">
 
     c) Once that icon is blue, hover over the caption on your Catstagram page. It
     will turn a different color, like below:
-<img src="img/hover_over.png" style="max-height: 450px">
+<img src="../img/hover_over.png" style="max-height: 450px">
 
     d) Click on the caption and then look in the bottom section of the 
     Developer Tools. You should see your css rule called .comment, like below:
-<img src="img/comment.png" style="max-height: 450px">
+<img src="../img/comment.png" style="max-height: 450px">
 
     e) Now click on the property value, where it says "70px" and using your up and down arrow keys,
     play around with the value while observing what is happening on your page. 
