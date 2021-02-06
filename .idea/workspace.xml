@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8769fa6d-4b63-4c7b-8ef2-915bf05e5133" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/CSS/README.md" afterPath="$PROJECT_DIR$/CSS/README.md" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change beforePath="$PROJECT_DIR$/complete.html" afterPath="$PROJECT_DIR$/complete.html" />
-      <change beforePath="$PROJECT_DIR$/javascript/README.md" afterPath="$PROJECT_DIR$/javascript/README.md" />
-      <change beforePath="$PROJECT_DIR$/javascript/brains.js" afterPath="$PROJECT_DIR$/javascript/brains.js" />
+      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,14 +23,14 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="868">
-                <caret line="183" column="0" lean-forward="false" selection-start-line="183" selection-start-column="0" selection-end-line="186" selection-end-column="12" />
+              <first_editor relative-caret-position="568">
+                <caret line="115" column="34" lean-forward="false" selection-start-line="115" selection-start-column="34" selection-end-line="115" selection-end-column="34" />
                 <folding>
-                  <marker date="1612643903000" expanded="true" signature="1548:2825" ph="unordered list: * This project, like m...icon&quot;" />
-                  <marker date="1612643903000" expanded="true" signature="1635:2825" ph="unordered list:   * **index.html page:...icon&quot;" />
-                  <marker date="1612643903000" expanded="true" signature="3893:4059" ph="h4:  ########When do you use it?" />
-                  <marker date="1612643903000" expanded="true" signature="7054:7195" ph="Next, we are going to ...gram*" />
-                  <marker date="1612643903000" expanded="true" signature="9968:9970" ph="h2: #### Part I and II Revie...tions" />
+                  <marker date="1612646980000" expanded="true" signature="1548:2825" ph="unordered list: * This project, like m...icon&quot;" />
+                  <marker date="1612646980000" expanded="true" signature="1635:2825" ph="unordered list:   * **index.html page:...icon&quot;" />
+                  <marker date="1612646980000" expanded="true" signature="3893:4059" ph="h4:  ########When do you use it?" />
+                  <marker date="1612646980000" expanded="true" signature="7111:7252" ph="Next, we are going to ...gram*" />
+                  <marker date="1612646980000" expanded="true" signature="10025:10027" ph="h2: #### Part I and II Revie...tions" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -56,12 +54,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javascript/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="838">
-                <caret line="133" column="52" lean-forward="false" selection-start-line="133" selection-start-column="52" selection-end-line="133" selection-end-column="52" />
+              <first_editor relative-caret-position="283">
+                <caret line="109" column="29" lean-forward="true" selection-start-line="109" selection-start-column="29" selection-end-line="109" selection-end-column="29" />
                 <folding>
                   <marker date="1612645264000" expanded="true" signature="4259:4366" ph="var counter2 = 0;&#10;var ... = 0;" />
                   <marker date="1612645264000" expanded="true" signature="6039:6390" ph="h4: ######## TODO ##23: Review ...rrors" />
@@ -75,8 +73,8 @@
       <file leaf-file-name="complete.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/complete.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+            <state relative-caret-position="269">
+              <caret line="42" column="13" lean-forward="false" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -95,18 +93,18 @@
       <file leaf-file-name="reflection.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reflection.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="97" lean-forward="false" selection-start-line="30" selection-start-column="97" selection-end-line="30" selection-end-column="97" />
+            <state relative-caret-position="300">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="375">
+              <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -128,8 +126,8 @@
       <find>img</find>
       <find>click</find>
       <find>inco</find>
-      <find>attribute</find>
       <find>her</find>
+      <find>attribute</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -142,13 +140,13 @@
         <option value="$PROJECT_DIR$/brains.js" />
         <option value="$PROJECT_DIR$/Javascript/README.md" />
         <option value="$PROJECT_DIR$/about.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/javascript/complete.html" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/CSS/README.md" />
         <option value="$PROJECT_DIR$/javascript/brains.js" />
-        <option value="$PROJECT_DIR$/complete.html" />
         <option value="$PROJECT_DIR$/javascript/README.md" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/complete.html" />
       </list>
     </option>
   </component>
@@ -254,12 +252,12 @@
       <updated>1610561908233</updated>
       <workItem from="1610561909385" duration="32818000" />
       <workItem from="1611676820473" duration="881000" />
-      <workItem from="1612278711082" duration="13217000" />
+      <workItem from="1612278711082" duration="14049000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46916000" />
+    <option name="totallyTimeSpent" value="47748000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -329,11 +327,11 @@
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding>
-              <marker date="1612643903000" expanded="true" signature="1548:2825" ph="unordered list: * This project, like m...icon&quot;" />
-              <marker date="1612643903000" expanded="true" signature="1635:2825" ph="unordered list:   * **index.html page:...icon&quot;" />
-              <marker date="1612643903000" expanded="true" signature="3893:4059" ph="h4:  ########When do you use it?" />
-              <marker date="1612643903000" expanded="true" signature="7054:7195" ph="Next, we are going to ...gram*" />
-              <marker date="1612643903000" expanded="true" signature="9968:9970" ph="h2: #### Part I and II Revie...tions" />
+              <marker date="1612646980000" expanded="true" signature="1548:2825" ph="unordered list: * This project, like m...icon&quot;" />
+              <marker date="1612646980000" expanded="true" signature="1635:2825" ph="unordered list:   * **index.html page:...icon&quot;" />
+              <marker date="1612646980000" expanded="true" signature="3893:4059" ph="h4:  ########When do you use it?" />
+              <marker date="1612646980000" expanded="true" signature="7111:7252" ph="Next, we are going to ...gram*" />
+              <marker date="1612646980000" expanded="true" signature="10025:10027" ph="h2: #### Part I and II Revie...tions" />
             </folding>
           </first_editor>
           <second_editor />
@@ -370,11 +368,11 @@
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding>
-              <marker date="1612643903000" expanded="true" signature="1548:2825" ph="unordered list: * This project, like m...icon&quot;" />
-              <marker date="1612643903000" expanded="true" signature="1635:2825" ph="unordered list:   * **index.html page:...icon&quot;" />
-              <marker date="1612643903000" expanded="true" signature="3893:4059" ph="h4:  ########When do you use it?" />
-              <marker date="1612643903000" expanded="true" signature="7054:7195" ph="Next, we are going to ...gram*" />
-              <marker date="1612643903000" expanded="true" signature="9968:9970" ph="h2: #### Part I and II Revie...tions" />
+              <marker date="1612646980000" expanded="true" signature="1548:2825" ph="unordered list: * This project, like m...icon&quot;" />
+              <marker date="1612646980000" expanded="true" signature="1635:2825" ph="unordered list:   * **index.html page:...icon&quot;" />
+              <marker date="1612646980000" expanded="true" signature="3893:4059" ph="h4:  ########When do you use it?" />
+              <marker date="1612646980000" expanded="true" signature="7111:7252" ph="Next, we are going to ...gram*" />
+              <marker date="1612646980000" expanded="true" signature="10025:10027" ph="h2: #### Part I and II Revie...tions" />
             </folding>
           </first_editor>
           <second_editor />
@@ -420,36 +418,19 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/javascript/brains.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/reflection.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="97" lean-forward="false" selection-start-line="30" selection-start-column="97" selection-end-line="30" selection-end-column="97" />
+        <state relative-caret-position="300">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="868">
-            <caret line="183" column="0" lean-forward="false" selection-start-line="183" selection-start-column="0" selection-end-line="186" selection-end-column="12" />
-            <folding>
-              <marker date="1612643903000" expanded="true" signature="1548:2825" ph="unordered list: * This project, like m...icon&quot;" />
-              <marker date="1612643903000" expanded="true" signature="1635:2825" ph="unordered list:   * **index.html page:...icon&quot;" />
-              <marker date="1612643903000" expanded="true" signature="3893:4059" ph="h4:  ########When do you use it?" />
-              <marker date="1612643903000" expanded="true" signature="7054:7195" ph="Next, we are going to ...gram*" />
-              <marker date="1612643903000" expanded="true" signature="9968:9970" ph="h2: #### Part I and II Revie...tions" />
-            </folding>
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -467,33 +448,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/brains.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/complete.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/javascript/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="838">
-            <caret line="133" column="52" lean-forward="false" selection-start-line="133" selection-start-column="52" selection-end-line="133" selection-end-column="52" />
+          <first_editor relative-caret-position="283">
+            <caret line="109" column="29" lean-forward="true" selection-start-line="109" selection-start-column="29" selection-end-line="109" selection-end-column="29" />
             <folding>
               <marker date="1612645264000" expanded="true" signature="4259:4366" ph="var counter2 = 0;&#10;var ... = 0;" />
               <marker date="1612645264000" expanded="true" signature="6039:6390" ph="h4: ######## TODO ##23: Review ...rrors" />
             </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="568">
+            <caret line="115" column="34" lean-forward="false" selection-start-line="115" selection-start-column="34" selection-end-line="115" selection-end-column="34" />
+            <folding>
+              <marker date="1612646980000" expanded="true" signature="1548:2825" ph="unordered list: * This project, like m...icon&quot;" />
+              <marker date="1612646980000" expanded="true" signature="1635:2825" ph="unordered list:   * **index.html page:...icon&quot;" />
+              <marker date="1612646980000" expanded="true" signature="3893:4059" ph="h4:  ########When do you use it?" />
+              <marker date="1612646980000" expanded="true" signature="7111:7252" ph="Next, we are going to ...gram*" />
+              <marker date="1612646980000" expanded="true" signature="10025:10027" ph="h2: #### Part I and II Revie...tions" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/complete.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="42" column="13" lean-forward="false" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -105,7 +105,7 @@ from the applicaiton, i.e. see pics of cats!
 
 #### TODO # 2: Add Basic HTML
     a) Open the "index.html" file in the file tree
-    b) Inside the  <body> </body>  add an  <h1></h1>  and name the site "Catsagram"
+    b) Inside the  <body> </body>, but above the <nav></nav> tags add an  <h1></h1>  and name the site "Catsagram"
     c) Below the h1 title, add an <h5></h5> and add the caption "Sharing the World's cats" 
     d) Save your work in Gitpod
     e) Return to Chrome and refresh the page. You should see a title and tagline for Catstagram
@@ -113,7 +113,7 @@ from the applicaiton, i.e. see pics of cats!
     
     
 #### TODO #3: Add One Cat Image from a Source URL
-    a) Create an <img> tag
+    a) Below the <nav></nav tag, create an <img> tag
     b) Add an attribute inside the opening <img> tag for 'src'
     c) Search Google for an image of a cat, right click on the image, and select "copy image address"
     d) Inside the opening  <img>  tag, find the  'src'  tag and paste the url of the cat image so that 
