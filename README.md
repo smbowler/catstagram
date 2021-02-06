@@ -22,7 +22,12 @@ work will open up an entirely new world to you, while also making you a more eng
 ## Part I: Things to Know
 
 ### File Structure / File Tree
-INTERNAL TODO: Insert picture of file structure from gitpod
+
+Before we jump in, let's make sure what we know is inside of this repository. Let's look
+at our file trees in Gitpod or scroll-up and look at the repo in Github. They are the same.
+
+<img src="img/successful_push.png" style="max-height: 450px">
+
 * This project, like most projects, has its own folder, that contains the following:
     * **CSS Folder:**
         * This folder contains the README for Part III of this project that deals with styling Catstagram. 
@@ -35,7 +40,7 @@ INTERNAL TODO: Insert picture of file structure from gitpod
         * This is the page that the browser loads and is the file that you should preview when you want to see an application
     * **reflection.html**
         * This file contains questions that we'll be answering as we move through this project. When there is
-        a reflection question, you will add your question inside of a <p></p> tag.
+        a reflection question, you will add your question inside of a  paragraph ````<p>/</p>```` tag.
     *  **img folder**:
         * This is a folder that contains images that are used throughout this README and images that you will use in this project (specifically the heart icon from Instagram).
     * **favicon.ico**
@@ -57,6 +62,7 @@ INTERNAL TODO: Insert picture of file structure from gitpod
  * It's important that everyone working on software be able to save their work in one place, so that everyone
  can know what progress has been made. 
  * Github allows developers to save their code so that everyone can see it, just like Google Drive.
+ 
  ####When do you use it?
   * When you are ready to take a project live so that it will show up on your portfolio website, you will follow the instructions below.
   
@@ -131,25 +137,36 @@ Investigate so you know how to build Catstagram.
     
         
         
-#### TODO #4: Add Like Count and Caption underneath the photo
-    * Underneath the  <img>  tag, add a  <p></p>  with '0 Likes' in it
+#### TODO #4: Add Like Count, Like Button, and Caption underneath the photo
+    * Underneath the  <img>  tag, add the following code snippet:
+   
+ ````
+    <div id="likeCount1"></div>
+    
+    <button id="likeBtn1">Like</button> 
+ ````
+    
     * Underneath the  <img>  tag, add a  <p></p>  with a caption. Get creative!
     * Save your work in Gitpod
     * Return to Chrome and refresh the page. You should see a like count and a caption underneath the photo
 
-#### TODO #5: Add 4 More Cat Pics with Like Count and Captions
-    * Underneath the image, like count, and caption, add four more images following the same steps as above, make sure each
-    photo has a like count and caption!
+#### TODO #5: Add 4 More Cat Pics with Like Count, Like Button, and Captions
+    * Underneath the image, like button, and caption, add four more images following the same steps as above, make sure each
+    photo you are including the following:
+        * a caption
+        * a div with an id="likeCount" with the number of the photo it is, i.e. likeCount1, likeCount2,likeCount3, etc. 
+        * a button with an id="likeBtn" with the number of the photo, i.e. likeBtn1, likeBtn2, etc. 
     * Each time you add a photo, save your workspace in Gitpod, and you should see your cat images, like counts, and captions show up in a column just like Instagram
     
 #### TODO #6: Review your work and check for errors
-A good developer always reviews his work before she commits it. Don't worry, you'll learn what a commit is in a second. For now, 
-review all of your work and check for the following:
+A good developer always reviews her work before she commits it. 
 
     * Correct indentation
     * Opening and closing tags (except for img tag)
     * Spelling/grammer mistakes
     * All 5 images are showing up
+    * All 5 images have a likeCount div with the correct corresponding number
+    * All 5 images have a likeBtn with the correct corresponding number
     * All TODOs are complete
 
     

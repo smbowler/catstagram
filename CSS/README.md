@@ -25,7 +25,7 @@ our ```index.html``` file. Inside of the opening and closing ```style``` tags, w
 that will make Catstagram look modern. 
 
     a) Locate the  <head>  tag
-    b) Locate inside the  <head>  tag and underneath the  <script></script>  tag
+    b) Locate inside the  <head>  tag, underneath the  <script></script>  tag
     c) Add an opening and closing  <style></style>  tags
     d) Now, "open up" the <style> tag by putting your cursor in between the opening and closing tags
     and pressing enter. It should look like this: 
@@ -36,15 +36,15 @@ that will make Catstagram look modern.
  
 #### TODO #9: Style the Title and Subtitle
 
-    a) Inside the inside the  <style>  tag, add a class called "brand-font" that has one property 
-    of font-style with a value of 'italic'. Don't forget the semi-colon!
+    a) Inside the  <style>  tag, add a class called "brand-font" that has one property 
+    of font-style with a value of 'italic'. Don't forget the semi-colon at the end!
     b) Add that class inside the opening tag of your <h1> and <h5> tags
     c) Save your work in Gitpod
     d) Return to Chrome and refresh the page. You should see your Title and Sub-title in italics
 
 #### TODO #10: Style the Images
 
-    a) Inside the inside the `<style>` tag, add a CSS rule for all <img> tags that makes all images the same width:
+    a) Inside the `<style>` tag, add a CSS rule for all <img> tags that makes all images the same width:
         * Selects a property of "width"
         * With a value of 300px
     b) Save your work in Gitpod
@@ -55,7 +55,7 @@ When you look at your Catstagram, it is kind of hard to tell which captions
 are with which photos. In order to make this more clear, we're going to add some 
 space underneath each of captions. 
 
-    a) Inside the inside the <style> tag, add a class called "comment". Don't forget the period before
+    a) Inside the <style> tag, add a class called ".comment". Don't forget the period before
     the class name!
     b) The class `.comment` should set the following rule:
                margin-bottom: 70px
@@ -81,7 +81,7 @@ with different styles. In order to do this, follow the steps below:
 <img src="../img/comment.png" style="max-height: 450px">
 
     e) Now click on the property value, where it says "70px" and using your up and down arrow keys,
-    play around with the value while observing what is happening on your page. 
+    play around with the value while observing what is happening on your page. Is the space underneath each comment changing?
     f)Refresh the page. Notice, did your changes stick?
     
 #### TODO #13: Center all of the content on the page
@@ -90,7 +90,7 @@ We want to center everything, so that the images, like count, and caption are in
 In order to do this, we're going to put everything inside of a  ```<div></div>``` and then we're going to add some 
 style rules to that ```<div>```
 
-    a) Below the <h5>, add an opening <div>
+    a) Below the <h5> at the top of the index.html file, add an opening <div>
     b) After the the caption of your LAST photo, add the closing tag </div>
     c) Highlight everything inside the opening and closing <div> </div> tags, and press indent,
     so that it is clear to see that the <div> is the parent tag of all of this content. 
@@ -115,7 +115,7 @@ A good developer always reviews her work before she commits it. Review all of yo
         * There is space under each caption
         * All content is centered
     images are centered
-    * Semi-colons at the end of each property
+    * Make sure there are semi-colons at the end of each property
     * All TODOs are complete
     
     
@@ -128,6 +128,8 @@ A good developer always reviews her work before she commits it. Review all of yo
               Think of this as a sticky note message. Press Enter. 
         * ```git push``` then press Enter. 
         * If you successfully ran these commands one at a time, your terminal window should look like this:
-           <img src="img/successful_push.png" style="max-height: 450px">
+        
+  <img src="img/successful_push.png" style="max-height: 450px">
+           
         * Checkout the live site on your portfolio and make sure the changes are appearing.
     

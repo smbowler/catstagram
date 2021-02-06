@@ -15,11 +15,6 @@ We're making progress. From the options below, what have we built so far?
 Yes, we have already built the **structure and content** of the website, the HTML, and we have **styled** it using CSS. 
 Next, in order to make the site have functionality, from the list above what language are we going to use? 
 
-#### TODO #16: Add A Heart Button above the caption of the First Photo
-    a) Above the <p> 0 Likes </p> add a button element:
-        <button> Heart </button>
-    b) Save your work on Gitpod
-    c) Return to Chrome and confirm that you have a button with the word "Heart" on it below your first photo.
 
 #### TODO # 17: Open the Developer Tools, Navigate to Console tab
     a) Right click the page and select "Inspect"
@@ -27,6 +22,11 @@ Next, in order to make the site have functionality, from the list above what lan
 
 
 #### TODO #18: Find/Fix the Errors
+Do you see any errors in the console? You should see an error that looks like this:
+
+ <img src="../img/console_error.png" style="max-height: 450px">
+
+
     a) Read the error, find what line the error is on, click on the link to the brain.js file
     b) Go back to Gitpod, remove the error so that the javascript file is empty.
     c) Save your work in Gitpod by typing "Ctrl S" or File > Save
