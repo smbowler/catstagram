@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8769fa6d-4b63-4c7b-8ef2-915bf05e5133" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/complete.html" afterPath="$PROJECT_DIR$/complete.html" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="$PROJECT_DIR$/CSS/README.md" afterPath="$PROJECT_DIR$/CSS/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,11 +39,11 @@
         <entry file="file://$PROJECT_DIR$/CSS/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="868">
-                <caret line="135" column="13" lean-forward="false" selection-start-line="135" selection-start-column="13" selection-end-line="135" selection-end-column="13" />
+              <first_editor relative-caret-position="808">
+                <caret line="131" column="15" lean-forward="false" selection-start-line="131" selection-start-column="15" selection-end-line="131" selection-end-column="15" />
                 <folding>
-                  <marker date="1612643963000" expanded="true" signature="148:6858" ph="h2: #### Part III: Make Cats...odern" />
-                  <marker date="1612643963000" expanded="true" signature="199:557" ph="Now that you have 5 ph...ute. " />
+                  <marker date="1612647125000" expanded="true" signature="148:6861" ph="h2: #### Part III: Make Cats...odern" />
+                  <marker date="1612647125000" expanded="true" signature="199:557" ph="Now that you have 5 ph...ute. " />
                 </folding>
               </first_editor>
               <second_editor />
@@ -54,7 +51,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/javascript/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -84,7 +81,7 @@
         <entry file="file://$PROJECT_DIR$/javascript/brains.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="3" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -100,7 +97,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
@@ -126,8 +123,8 @@
       <find>img</find>
       <find>click</find>
       <find>inco</find>
-      <find>her</find>
       <find>attribute</find>
+      <find>her</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -141,12 +138,12 @@
         <option value="$PROJECT_DIR$/Javascript/README.md" />
         <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/javascript/complete.html" />
-        <option value="$PROJECT_DIR$/CSS/README.md" />
         <option value="$PROJECT_DIR$/javascript/brains.js" />
         <option value="$PROJECT_DIR$/javascript/README.md" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/complete.html" />
+        <option value="$PROJECT_DIR$/CSS/README.md" />
       </list>
     </option>
   </component>
@@ -252,12 +249,12 @@
       <updated>1610561908233</updated>
       <workItem from="1610561909385" duration="32818000" />
       <workItem from="1611676820473" duration="881000" />
-      <workItem from="1612278711082" duration="14049000" />
+      <workItem from="1612278711082" duration="14109000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47748000" />
+    <option name="totallyTimeSpent" value="47808000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -418,50 +415,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/brains.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reflection.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="868">
-            <caret line="135" column="13" lean-forward="false" selection-start-line="135" selection-start-column="13" selection-end-line="135" selection-end-column="13" />
-            <folding>
-              <marker date="1612643963000" expanded="true" signature="148:6858" ph="h2: #### Part III: Make Cats...odern" />
-              <marker date="1612643963000" expanded="true" signature="199:557" ph="Now that you have 5 ph...ute. " />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="283">
-            <caret line="109" column="29" lean-forward="true" selection-start-line="109" selection-start-column="29" selection-end-line="109" selection-end-column="29" />
-            <folding>
-              <marker date="1612645264000" expanded="true" signature="4259:4366" ph="var counter2 = 0;&#10;var ... = 0;" />
-              <marker date="1612645264000" expanded="true" signature="6039:6390" ph="h4: ######## TODO ##23: Review ...rrors" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -492,6 +445,50 @@
         <state relative-caret-position="375">
           <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reflection.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/brains.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="808">
+            <caret line="131" column="15" lean-forward="false" selection-start-line="131" selection-start-column="15" selection-end-line="131" selection-end-column="15" />
+            <folding>
+              <marker date="1612647125000" expanded="true" signature="148:6861" ph="h2: #### Part III: Make Cats...odern" />
+              <marker date="1612647125000" expanded="true" signature="199:557" ph="Now that you have 5 ph...ute. " />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="283">
+            <caret line="109" column="29" lean-forward="true" selection-start-line="109" selection-start-column="29" selection-end-line="109" selection-end-column="29" />
+            <folding>
+              <marker date="1612645264000" expanded="true" signature="4259:4366" ph="var counter2 = 0;&#10;var ... = 0;" />
+              <marker date="1612645264000" expanded="true" signature="6039:6390" ph="h4: ######## TODO ##23: Review ...rrors" />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
