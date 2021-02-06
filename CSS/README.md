@@ -19,7 +19,7 @@ We have already done some coding. From the options below, what have we built so 
 Yes, we have already built the **structure and content** of the website, the HTML.
 Next, in order to make the site look pretty, from the list above what language are we going to use? 
  
-#### TODO #8: Add Style Tags in the Head
+#### TODO #9: Add Style Tags in the Head
 In order to start adding CSS, we have to add ```<style> </style>``` tags into the head of 
 our ```index.html``` file. Inside of the opening and closing ```style``` tags, we'll put all of the CSS rules
 that will make Catstagram look modern. 
@@ -34,7 +34,7 @@ that will make Catstagram look modern.
     e) Save your work in Gitpod
 
  
-#### TODO #9: Style the Title and Subtitle
+#### TODO #10: Style the Title and Subtitle
 
     a) Inside the  <style>  tag, add a class called "brand-font" that has one property 
     of font-style with a value of 'italic'. Don't forget the semi-colon at the end!
@@ -42,7 +42,7 @@ that will make Catstagram look modern.
     c) Save your work in Gitpod
     d) Return to Chrome and refresh the page. You should see your Title and Sub-title in italics
 
-#### TODO #10: Style the Images
+#### TODO #11: Style the Images
 
     a) Inside the `<style>` tag, add a CSS rule for all <img> tags that makes all images the same width:
         * Selects a property of "width"
@@ -50,7 +50,7 @@ that will make Catstagram look modern.
     b) Save your work in Gitpod
     c) Return to Chrome and refresh the page. You should see all of your pics have the same width
 
-#### TODO #11: Add Some Space Underneath the Captions
+#### TODO #12: Add Some Space Underneath the Captions
 When you look at your Catstagram, it is kind of hard to tell which captions
 are with which photos. In order to make this more clear, we're going to add some 
 space underneath each of captions. 
@@ -63,7 +63,7 @@ space underneath each of captions.
     d) Return to Chrome and refresh the page. You should see space underneath all of your comments
     
     
-#### TODO #12: Open the Console and Select an Element
+#### TODO #13: Open the Console and Select an Element
 When we are working with CSS, it is really helpful to use the Developer Tools to experiment 
 with different styles. In order to do this, follow the steps below:
 
@@ -84,7 +84,7 @@ with different styles. In order to do this, follow the steps below:
     play around with the value while observing what is happening on your page. Is the space underneath each comment changing?
     f)Refresh the page. Notice, did your changes stick?
     
-#### TODO #13: Center all of the content on the page
+#### TODO #14: Center all of the content on the page
 Right now, all of the content is squished over to the left side of the page, right?
 We want to center everything, so that the images, like count, and caption are in the center of the page.
 In order to do this, we're going to put everything inside of a  ```<div></div>``` and then we're going to add some 
@@ -105,7 +105,7 @@ style rules to that ```<div>```
         }
         
     
-#### TODO #14: Review your work and check for errors
+#### TODO #15: Review your work and check for errors
 A good developer always reviews her work before she commits it. Review all of your work and check for the following:
 
     * Correct indentation in the CSS rules
@@ -119,7 +119,7 @@ A good developer always reviews her work before she commits it. Review all of yo
     * All TODOs are complete
     
     
-#### TODO #15: Push your code to Github
+#### TODO #16: Push your code to Github
     * First, open a terminal window by clicking at the top Window > New Terminal
     * Then run each of the following commands one by one:
         * ```git add .  ``` then hit Enter. Don't forget the ```.```
@@ -132,4 +132,8 @@ A good developer always reviews her work before she commits it. Review all of yo
   <img src="img/successful_push.png" style="max-height: 450px">
            
         * Checkout the live site on your portfolio and make sure the changes are appearing.
-    
+
+#### TODO #17: Click on the javascript folder, follow the README
+To move forward on completing Catstagram, scroll up to the top of this Github repo and click
+on the "javascript" folder. This will take you to the README with instructions for how to make
+Catstagram functional. 

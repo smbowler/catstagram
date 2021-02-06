@@ -16,12 +16,12 @@ Yes, we have already built the **structure and content** of the website, the HTM
 Next, in order to make the site have functionality, from the list above what language are we going to use? 
 
 
-#### TODO # 17: Open the Developer Tools, Navigate to Console tab
+#### TODO # 18: Open the Developer Tools, Navigate to Console tab
     a) Right click the page and select "Inspect"
     b) Choose the tab labeled "Console"
 
 
-#### TODO #18: Find/Fix the Errors
+#### TODO #19: Find/Fix the Errors
 Do you see any errors in the console? You should see an error that looks like this:
 
  <img src="../img/console_error.png" style="max-height: 450px">
@@ -33,28 +33,20 @@ Do you see any errors in the console? You should see an error that looks like th
     d) Return to Chrome and refresh the page. Recheck the console for errors. You should see a no more error on line 1 of brain.js.
     
     
-#### TODO #19: Make the Button DO Something, Part 1
+#### TODO #20: Add an onClick function to the FIRST Button
 As you get deeper into Javascript, you'll learn more about different ways to 
 connect the HTML and Javascript together, including learning about frameworks that make this 
-easy. For now, we're going to add a simple onClick function into the opening tag of the ```<button>```
+easy. For now, we're going to add a simple onClick function into the opening tag of the **FIRST** ```<button>``` only.
 
-    a) Inside the opening <button> tag, add the following code:
+    a) Inside the opening <button> tag of the FIRST photo only, add the following code:
          onClick="likePhoto()"
     b) Confirm that the button element now looks like this:
-         <button onClick="likePhoto()">Heart</button>
+           <button onClick="likePhoto()" id="likeBtn1">Like</button>
     c) Save your work in Gitpod
     
-#### TODO #20: Add A Heart Button to EVERY Photo
-Now that you've added some functionality to the button, copy and paste it for each of your
-five photos. 
 
-    a) Above the <p> 0 Likes </p> add a button element to every photo:
-         <button onClick="likePhoto()">Heart</button>
-    b) Save your work on Gitpod
-    c) Return to Chrome and confirm that you have a button with the word "Heart" on it below every photo.
-
-#### TODO #21: Make the Button DO Something, Part 2
-Now that we've added this function to the opening tag of the button, we need to 
+#### TODO #21: Write the function to be performed onClick
+Now that we've added this function to the opening tag of the first button, we need to 
 write the function called  ```likePhoto``` in the brain.js file
 
     a) Navigate to brain.js in Giptod
@@ -71,30 +63,75 @@ write the function called  ```likePhoto``` in the brain.js file
 Now that we have a function that is working, we need to modify our javascript so that 
 it keeps track of the number of likes on each photo. How can we do this?
 
-    a) Above your likePhoto function, add a variable called "likeCount" and give it a value of zero 
-    b) Modify your likePhoto function so that it increases the likeCount by one each time the function is called
-    c) Instead of printing "like" to the console, now print the likeCount variable. 
+    a) Inside the brain.js file, above your likePhoto function, add a variable called "counter" and give it a value of zero 
+    b) Modify your likePhoto function so that it increases the counter by one each time the function is called
+    c) Instead of printing "like" to the console, now print the counter variable. 
     c) Save your work in Gitpod
-    d) Return to Chrome and open the console to see if likeCount is increasing.
+    d) Return to Chrome and open the console to see if the variable counter is increasing.
     
 
-#### TODO #?: Add a Heart Image to each Button
-Just like on Instagram, we now want to add a heart image to each button, which we will
-turn red if you like the photo!
+#### TODO #23: Connect the javascript code to the HTML using JQuery
+Ok, we've done a few things now to give Catstagram some functionality:
+    * We've written a function called likePhoto that we call when we click the first Like button on the first photo.  
+    * We've added a variable called "counter" to keep track of the likes
+    * We've confirmed that our funciton and counter are working because we are printing to the console
+    
+Now that we know this, we are going to connect our javascript code with our HTML code, so that
+when you click the like button, you will actually see the number of likes below each photo. In order to do this,
+we're going to use a library called JQuery. The basic idea behind JQuery is called DOM manipulation, which basically means
+it allows you to change the HTML using javascript. 
 
-        a)Look inside the 'img' folder and locate the 'heart_btn.jpg' image
-        b)In between the opening and closing  <button></button>  tags, add an <img> tag, with the following attributes:
-           id="heart_btn"
-           src="img/heart_btn.jpg"
-        c)Inside the  <style></style>  tag in the head, add the following class:
-        
-               #heart_btn{
-                          width: 23px;
-                        }
-#### TODO #?: Adjust the likes with each click of the Heart Button
-Now that we have  a true LIKE button, we want to adjust the number of likes that are visible on the
-page to a user. In order to do this, we're going to use a library called JQuery, which allows us
-to manipulate the HTML in a page through javascript.       
+You will learn more about JQuery in the advanced class. For now, copy and paste the following code 
+into the ````brain.js```` file. 
+
+            var counter1 = 0;
+            var counter2 = 0;
+            var counter3 = 0;
+            var counter4 = 0;
+            var counter5 = 0;
+            
+            $(document).ready(function() {
+            
+                $("#likeBtn1").click(function(){
+                    counter1++;
+            
+                    $("#likeCount1").text(counter1);
+                });
+            
+                $("#likeBtn2").click(function(){
+                    counter2++;
+            
+                    $("#likeCount2").text(counter2);
+                });
+            
+                $("#likeBtn3").click(function(){
+                    counter3++;
+            
+                    $("#likeCount3").text(counter3);
+                });
+            
+                $("#likeBtn4").click(function(){
+                    counter4++;
+            
+                    $("#likeCount4").text(counter4);
+                });
+            
+                $("#likeBtn5").click(function(){
+                    counter5++;
+            
+                    $("#likeCount5").text(counter5);
+                });
+            
+            });
+            
+#### TODO #23: Check out the Likes
+Ok, so now that you've added JQuery, you should see that the likeCount of each photo is increasing
+whenever the "Like" button is clicked. You've accomplished a lot! Let's Review:
+    * You built the frontend of the applicaiton using HTML and CSS
+    * You then added a function called likePhoto that allowed you to see how the HTML and Javascript work together.
+    * Then you added JQuery in order to manipulate the view/HTML so that you could show the number of likes
+Notice, that the function you wrote is still working and still printing to the console. We just added JQuery
+to be able to show the number of likes to the user.    
    
 #### TODO #23: Review your work and check for errors
 A good developer always reviews her work before she commits it. Review all of your work and check for the following:

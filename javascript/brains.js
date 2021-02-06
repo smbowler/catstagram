@@ -37,3 +37,10 @@ $(document).ready(function() {
     });
 
 });
+
+var counter = 0;
+
+function likePhoto(){
+    counter++;
+    console.log(counter);
+}

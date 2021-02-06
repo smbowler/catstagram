@@ -181,5 +181,8 @@ A good developer always reviews her work before she commits it.
     * If you successfully ran these commands one at a time, your terminal window should look like this:
        <img src="img/successful_push.png" style="max-height: 450px">
 
-
+#### TODO #8: Click on the CSS folder, follow the README
+To move forward on completing Catstagram, scroll up to the top of this Github repo and click
+on the "CSS" folder. This will take you to the README with instructions for how to style 
+Catstagram. 
 
