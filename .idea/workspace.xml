@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8769fa6d-4b63-4c7b-8ef2-915bf05e5133" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/CSS/README.md" afterPath="$PROJECT_DIR$/CSS/README.md" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/complete.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/javascript/brains.js" afterPath="$PROJECT_DIR$/javascript/brains.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -55,8 +57,8 @@
         <entry file="file://$PROJECT_DIR$/javascript/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="283">
-                <caret line="109" column="29" lean-forward="true" selection-start-line="109" selection-start-column="29" selection-end-line="109" selection-end-column="29" />
+              <first_editor relative-caret-position="103">
+                <caret line="97" column="39" lean-forward="true" selection-start-line="97" selection-start-column="39" selection-end-line="97" selection-end-column="39" />
                 <folding>
                   <marker date="1612645264000" expanded="true" signature="4259:4366" ph="var counter2 = 0;&#10;var ... = 0;" />
                   <marker date="1612645264000" expanded="true" signature="6039:6390" ph="h4: ######## TODO ##23: Review ...rrors" />
@@ -67,21 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="complete.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/complete.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="42" column="13" lean-forward="false" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="brains.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javascript/brains.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="1" />
+              <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -90,8 +82,8 @@
       <file leaf-file-name="reflection.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reflection.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="195">
+              <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -123,8 +115,8 @@
       <find>img</find>
       <find>click</find>
       <find>inco</find>
-      <find>attribute</find>
       <find>her</find>
+      <find>attribute</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -138,12 +130,12 @@
         <option value="$PROJECT_DIR$/Javascript/README.md" />
         <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/javascript/complete.html" />
-        <option value="$PROJECT_DIR$/javascript/brains.js" />
         <option value="$PROJECT_DIR$/javascript/README.md" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/complete.html" />
         <option value="$PROJECT_DIR$/CSS/README.md" />
+        <option value="$PROJECT_DIR$/javascript/brains.js" />
       </list>
     </option>
   </component>
@@ -186,11 +178,6 @@
             <path>
               <item name="catstagram" type="b2602c69:ProjectViewProjectNode" />
               <item name="catstagram" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="catstagram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="catstagram" type="462c0819:PsiDirectoryNode" />
-              <item name="javascript" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -249,12 +236,12 @@
       <updated>1610561908233</updated>
       <workItem from="1610561909385" duration="32818000" />
       <workItem from="1611676820473" duration="881000" />
-      <workItem from="1612278711082" duration="14109000" />
+      <workItem from="1612278711082" duration="14235000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47808000" />
+    <option name="totallyTimeSpent" value="47934000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -432,38 +419,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/complete.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="42" column="13" lean-forward="false" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reflection.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/brains.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSS/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -478,11 +433,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reflection.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/brains.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/complete.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="42" column="13" lean-forward="false" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/javascript/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="283">
-            <caret line="109" column="29" lean-forward="true" selection-start-line="109" selection-start-column="29" selection-end-line="109" selection-end-column="29" />
+          <first_editor relative-caret-position="103">
+            <caret line="97" column="39" lean-forward="true" selection-start-line="97" selection-start-column="39" selection-end-line="97" selection-end-column="39" />
             <folding>
               <marker date="1612645264000" expanded="true" signature="4259:4366" ph="var counter2 = 0;&#10;var ... = 0;" />
               <marker date="1612645264000" expanded="true" signature="6039:6390" ph="h4: ######## TODO ##23: Review ...rrors" />
