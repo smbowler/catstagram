@@ -124,7 +124,7 @@ into the ````brain.js```` file.
             
             });
             
-#### TODO #23: Check out the Likes
+#### TODO #24: Check out the Likes
 Ok, so now that you've added JQuery, you should see that the likeCount of each photo is increasing
 whenever the "Like" button is clicked. You've accomplished a lot! Let's Review:
     * You built the frontend of the applicaiton using HTML and CSS
@@ -133,7 +133,7 @@ whenever the "Like" button is clicked. You've accomplished a lot! Let's Review:
 Notice, that the function you wrote is still working and still printing to the console. We just added JQuery
 to be able to show the number of likes to the user.    
    
-#### TODO #23: Review your work and check for errors
+#### TODO #25: Review your work and check for errors
 A good developer always reviews her work before she commits it. Review all of your work and check for the following:
 
     * Correct syntax in javascript
@@ -143,7 +143,7 @@ A good developer always reviews her work before she commits it. Review all of yo
     * All TODOs are complete
     
     
-#### TODO #24: Push your code to Github
+#### TODO #26: Push your code to Github
     * First, open a terminal window by clicking at the top Window > New Terminal
     * Then run each of the following commands one by one:
         * ```git add .  ``` then hit Enter. Don't forget the ```.```

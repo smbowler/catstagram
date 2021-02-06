@@ -26,7 +26,7 @@ work will open up an entirely new world to you, while also making you a more eng
 Before we jump in, let's make sure what we know is inside of this repository. Let's look
 at our file trees in Gitpod or scroll-up and look at the repo in Github. They are the same.
 
-<img src="img/successful_push.png" style="max-height: 450px">
+<img src="img/fileTree.png" style="max-height: 450px">
 
 * This project, like most projects, has its own folder, that contains the following:
     * **CSS Folder:**
@@ -63,7 +63,7 @@ at our file trees in Gitpod or scroll-up and look at the repo in Github. They ar
  can know what progress has been made. 
  * Github allows developers to save their code so that everyone can see it, just like Google Drive.
  
- ####When do you use it?
+####When do you use it?
   * When you are ready to take a project live so that it will show up on your portfolio website, you will follow the instructions below.
   
  #### How do you use it?
