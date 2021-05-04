@@ -143,10 +143,10 @@ what a setTimeout is, but basically it means that we are purposefully adding a d
 in order to allow the HTML to be set by the javascript. You'll learn more about this in the advanced class. For now, see if you can
 look at the jQuery and understand how we're using the object to adjust our HTML. 
 
-####Challenge
+#### Challenge
 Go look at the picture below. Can you add some CSS to get your Catstagram looking like instagram.com? Consider the bullet points below:
 
- <img src="img/messi.png" style="max-height: 450px">
+ <img src="../img/messi.png" style="max-height: 450px">
 
  * Look at the CSS property border-radius to adjust your profile picture
  * Add a bio to your user object and to your HTML and then add some jQuery inside of a setTimeout function to display your bio on your Catstagram.
