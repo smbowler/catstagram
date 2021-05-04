@@ -24,7 +24,7 @@ work will open up an entirely new world to you, while also making you a more eng
 ### File Structure / File Tree
 
 Before we jump in, let's make sure what we know is inside of this repository. Let's look
-at our file trees in Gitpod or scroll-up and look at the repo in Github. They are the same.
+at our file tree in Gitpod or scroll-up and look at the repo in Github. They are the same.
 
 <img src="img/fileTree.png" style="max-height: 450px">
 
@@ -37,7 +37,7 @@ at our file trees in Gitpod or scroll-up and look at the repo in Github. They ar
         * This folder contains the README for Part IV of this project, when you are going to give
         Catstagram some functionality using javascript. 
     * **index.html page:**
-        * This is the page that the browser loads and is the file that you should preview when you want to see an application
+        * This is the page that the browser loads and is the file that you should preview when you want to see this application or any application
     * **reflection.html**
         * This file contains questions that we'll be answering as we move through this project. When there is
         a reflection question, you will add your question inside of a  paragraph ````<p>/</p>```` tag.
@@ -53,7 +53,7 @@ at our file trees in Gitpod or scroll-up and look at the repo in Github. They ar
 #### What is Github?
  * Just like you save your work in Google Drive for school, software developers save their code in something called
  Github. 
- * When we did setup for this class, you created a repository for your code to live. You can think of a repository (repo for short),
+ * When we did setup for this class, you created a repository for your code to live on Gitpod. You can think of a repository (repo for short),
  as a folder or locker for your code. 
  * Inside the locker, you put all of the files, images, and graphics you need to run
  your application. 
@@ -61,10 +61,9 @@ at our file trees in Gitpod or scroll-up and look at the repo in Github. They ar
  * Just like when you build a house, you can have multiple people working at the same time - painting, hanging drywall, etc - you can do the same thing with code.
  * It's important that everyone working on software be able to save their work in one place, so that everyone
  can know what progress has been made. 
- * Github allows developers to save their code so that everyone can see it, just like Google Drive.
- 
-####When do you use it?
-  * When you are ready to take a project live so that it will show up on your portfolio website, you will follow the instructions below.
+ * Github allows developers to save their code so that everyone can see it.
+#### When do "push code"?
+  * When you are ready to take a project live so that it will show up on your portfolio website, you will "push" your code up to your Github repository by following the instructions below.
   
  #### How do you use it?
  * First, go to Window > New Terminal in Gitpod. 
@@ -74,10 +73,10 @@ at our file trees in Gitpod or scroll-up and look at the repo in Github. They ar
  * The first command: 
     * ```git add .  ``` then hit Enter. Don't forget the ```.```
     * ```git commit -m 'insert specific message about what you are saving'``` 
-    This second command can be tricky.You want to write a message inside the qoutation marks that describes what you are changing. 
+     This second command can be tricky. You want to write a message inside the qoutation marks that describes what you are changing. 
     Think of this as a sticky note message. Press Enter. 
     * ```git push``` then press Enter. 
- * If you successfully ran these commands one at a time, your terminal window should look like this:
+ * If you successfully ran these commands one at a time, your terminal window should look like this after you run the ```git push``` command :
  <img src="img/successful_push.png" style="max-height: 450px">
 
  
@@ -107,25 +106,27 @@ from the applicaiton, i.e. see pics of cats!
     a) Open the "index.html" file in the file tree
     b) Inside the  <body> </body>, but above the <nav></nav> tags add an  <h1></h1>  and name the site "Catsagram"
     c) Below the h1 title, add an <h5></h5> and add the caption "Sharing the World's cats" 
+    d) Below the <h5></h5>, add an empty <div></div> with an id of "userName"
     d) Save your work in Gitpod
     e) Return to Chrome and refresh the page. You should see a title and tagline for Catstagram
+    f) Now, return to the code and delete the h1 that says "This should be visible to you!". We don't need that anymore. 
 
     
     
 #### TODO #3: Add One Cat Image from a Source URL
-    a) Below the <nav></nav tag, create an <img> tag
-    b) Add an attribute inside the opening <img> tag for 'src'
-    c) Search Google for an image of a cat, right click on the image, and select "copy image address"
-    d) Inside the opening  <img>  tag, find the  'src'  tag and paste the url of the cat image so that 
+    a) Below the <nav></nav tag, write a code comment that says <!--Cat Photo 1-->. This is to help us organize our code. 
+    b) Now, create an <img> tag underneath that code comment
+    c) Add an attribute inside the opening <img> tag for 'src'
+    d) Search Google for an image of a cat, right click on the image, and select "copy image address"
+    e) Inside the opening  <img>  tag, find the  'src'  tag and paste the url of the cat image so that 
     it looks like this  src="https://i.pinimg.com/originals/3b/4f/55/3b4f55f606f04ed5300d1bcf589c010e.jpg"
-    e) Make sure this url ends in either .png or .jpg
-    f) Save your work in Gitpod
-    g) Return to Chrome and refresh the page. You should see your image on the website
+    f) Make sure this url ends in either .png or .jpg
+    g) Save your work in Gitpod
+    h) Return to Chrome and refresh the page. You should see your image on the website
  
 #### Investigate and Discuss
 
-Next, we are going to investigate an Instagram post and determine what else needs to be added
-Investigate so you know how to build Catstagram.
+Next, let's make sure we've added everything to goes along with a photo on Instagram. 
 
 * Look at the photo below.
 * What else is associated with each photo?
@@ -143,10 +144,10 @@ Investigate so you know how to build Catstagram.
  ````
     <div id="likeCount1"></div>
     
-    <button id="likeBtn1">Like</button> 
+    <button id="likeBtn">Like</button> 
  ````
     
-    * Underneath the  <img>  tag, add a  <p></p>  with a caption. Get creative!
+    * Underneath the  <button>  tag, add a  <p></p>  with a caption. Get creative!
     * Save your work in Gitpod
     * Return to Chrome and refresh the page. You should see a like count and a caption underneath the photo
 
@@ -155,8 +156,13 @@ Investigate so you know how to build Catstagram.
     photo you are including the following:
         * a caption
         * a div with an id="likeCount" with the number of the photo it is, i.e. likeCount1, likeCount2,likeCount3, etc. 
-        * a button with an id="likeBtn" with the number of the photo, i.e. likeBtn1, likeBtn2, etc. 
-    * Each time you add a photo, save your workspace in Gitpod, and you should see your cat images, like counts, and captions show up in a column just like Instagram
+        * a button with an id="likeBtn" . 
+    * Each time you add a photo, save your workspace in Gitpod, and you should see your cat images, like counts, and captions show up in a column just like Instagram. Don't worry if your images are different sizes. 
+    We'll fix this later with CSS. 
+    * It's also best practice to add a code comment above each new photo, like below, so that it's easy to see where one photo stops
+    and the other continues
+        <!--Cat Photo 2-->
+    
     
 #### TODO #6: Review your work and check for errors
 A good developer always reviews her work before she commits it. 
@@ -166,7 +172,7 @@ A good developer always reviews her work before she commits it.
     * Spelling/grammer mistakes
     * All 5 images are showing up
     * All 5 images have a likeCount div with the correct corresponding number
-    * All 5 images have a likeBtn with the correct corresponding number
+    * All 5 images have a likeBtn 
     * All TODOs are complete
 
     

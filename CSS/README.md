@@ -55,12 +55,13 @@ When you look at your Catstagram, it is kind of hard to tell which captions
 are with which photos. In order to make this more clear, we're going to add some 
 space underneath each of captions. 
 
-    a) Inside the <style> tag, add a class called ".comment". Don't forget the period before
+    a) Inside the <style> tag, add a class called ".caption". Don't forget the period before
     the class name!
-    b) The class `.comment` should set the following rule:
+    b) The class `.caption` should set the following rule:
                margin-bottom: 70px
+    c) Now add this class to each of the 5 paragraph tags below. 
     c) Save your work in Gitpod
-    d) Return to Chrome and refresh the page. You should see space underneath all of your comments
+    d) Return to Chrome and refresh the page. You should see space underneath all of your caption
     
     
 #### TODO #13: Open the Console and Select an Element
@@ -78,7 +79,7 @@ with different styles. In order to do this, follow the steps below:
 
     d) Click on the caption and then look in the bottom section of the 
     Developer Tools. You should see your css rule called .comment, like below:
-<img src="../img/comment.png" style="max-height: 450px">
+<img src="../img/caption.png" style="max-height: 450px">
 
     e) Now click on the property value, where it says "70px" and using your up and down arrow keys,
     play around with the value while observing what is happening on your page. Is the space underneath each comment changing?
@@ -90,7 +91,7 @@ We want to center everything, so that the images, like count, and caption are in
 In order to do this, we're going to put everything inside of a  ```<div></div>``` and then we're going to add some 
 style rules to that ```<div>```
 
-    a) Below the <h5> at the top of the index.html file, add an opening <div>
+    a) Below the  closing </nav> at the top of the index.html file, add an opening <div>
     b) After the the caption of your LAST photo, add the closing tag </div>
     c) Highlight everything inside the opening and closing <div> </div> tags, and press indent,
     so that it is clear to see that the <div> is the parent tag of all of this content. 
@@ -103,9 +104,19 @@ style rules to that ```<div>```
             flex-direction: column;
             align-items: center;
         }
+
+#### TODO #15: Have fun w/ CSS
+Now, have some fun with the style of your Catstagram application. Below is a non-exhaustive list of style elements you could change
+
+    - Background color/ image
+    - Font color / image
+    - Indentation of captions/likes underneath each photo
+    - Border around each photo
+    - Indentation of the title of the application
+    - Adding the favicon next to the title of the application
         
     
-#### TODO #15: Review your work and check for errors
+#### TODO #16: Review your work and check for errors
 A good developer always reviews her work before she commits it. Review all of your work and check for the following:
 
     * Correct indentation in the CSS rules
@@ -119,7 +130,12 @@ A good developer always reviews her work before she commits it. Review all of yo
     * All TODOs are complete
     
     
-#### TODO #16: Push your code to Github
+#### TODO #17: Open the reflection.html page and answer the questions
+
+    * Below each question, add a <p> tag and answer the question to the best of your ability. 
+    
+    
+#### TODO #18: Push your code to Github
     * First, open a terminal window by clicking at the top Window > New Terminal
     * Then run each of the following commands one by one:
         * ```git add .  ``` then hit Enter. Don't forget the ```.```
@@ -133,7 +149,7 @@ A good developer always reviews her work before she commits it. Review all of yo
            
         * Checkout the live site on your portfolio and make sure the changes are appearing.
 
-#### TODO #17: Click on the javascript folder, follow the README
+#### TODO #19: Click on the javascript folder, follow the README
 To move forward on completing Catstagram, scroll up to the top of this Github repo and click
 on the "javascript" folder. This will take you to the README with instructions for how to make
 Catstagram functional. 
