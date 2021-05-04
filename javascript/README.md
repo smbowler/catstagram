@@ -41,7 +41,7 @@ easy. For now, we're going to add a simple onClick function into the opening tag
     a) Inside the opening <button> tag of the FIRST photo only, add the following code:
          onClick="likePhoto()"
     b) Confirm that the button element now looks like this:
-           <button onClick="likePhoto()" id="likeBtn1">Like</button>
+           <button onClick="likePhoto()">Like</button>
     c) Save your work in Gitpod
     
 
@@ -63,77 +63,97 @@ write the function called  ```likePhoto``` in the brain.js file
 Now that we have a function that is working, we need to modify our javascript so that 
 it keeps track of the number of likes on each photo. How can we do this?
 
-    a) Inside the brain.js file, above your likePhoto function, add a variable called "counter" and give it a value of zero 
+    a) Inside the brain.js file, above your likePhoto function, add a variable called "counter1" and give it a value of zero 
     b) Modify your likePhoto function so that it increases the counter by one each time the function is called
     c) Instead of printing "like" to the console, now print the counter variable. 
     c) Save your work in Gitpod
     d) Return to Chrome and open the console to see if the variable counter is increasing.
-    
 
-#### TODO #23: Connect the javascript code to the HTML using JQuery
-Ok, we've done a few things now to give Catstagram some functionality:
-    * We've written a function called likePhoto that we call when we click the first Like button on the first photo.  
-    * We've added a variable called "counter" to keep track of the likes
-    * We've confirmed that our funciton and counter are working because we are printing to the console
+
     
+#### TODO #23: Connect the Javascript to the HTML, using JQUERY.  
+Ok, we've done a few things now to give Catstagram some functionality:
+   * We've written a function called likePhoto that we call when we click the first Like button on the first photo.  
+   * We've added a variable called "counter" to keep track of the likes
+   * We've confirmed that our function and counter are working because we are printing to the console
+
 Now that we know this, we are going to connect our javascript code with our HTML code, so that
 when you click the like button, you will actually see the number of likes below each photo. In order to do this,
 we're going to use a library called JQuery. The basic idea behind JQuery is called DOM manipulation, which basically means
 it allows you to change the HTML using javascript. 
 
-You will learn more about JQuery in the advanced class. For now, copy and paste the following code 
-into the ````brain.js```` file. 
 
-            var counter1 = 0;
-            var counter2 = 0;
-            var counter3 = 0;
-            var counter4 = 0;
-            var counter5 = 0;
-            
-            $(document).ready(function() {
-            
-                $("#likeBtn1").click(function(){
-                    counter1++;
-            
-                    $("#likeCount1").text(counter1);
-                });
-            
-                $("#likeBtn2").click(function(){
-                    counter2++;
-            
-                    $("#likeCount2").text(counter2);
-                });
-            
-                $("#likeBtn3").click(function(){
-                    counter3++;
-            
-                    $("#likeCount3").text(counter3);
-                });
-            
-                $("#likeBtn4").click(function(){
-                    counter4++;
-            
-                    $("#likeCount4").text(counter4);
-                });
-            
-                $("#likeBtn5").click(function(){
-                    counter5++;
-            
-                    $("#likeCount5").text(counter5);
-                });
-            
-            });
-            
-#### TODO #24: Check out the Likes
-Ok, so now that you've added JQuery, you should see that the likeCount of each photo is increasing
-whenever the "Like" button is clicked. You've accomplished a lot! Let's Review:
-    * You built the frontend of the applicaiton using HTML and CSS
-    * You then added a function called likePhoto that allowed you to see how the HTML and Javascript work together.
-    * Then you added JQuery in order to manipulate the view/HTML so that you could show the number of likes
-Notice, that the function you wrote is still working and still printing to the console. We just added JQuery
-to be able to show the number of likes to the user.    
-   
-#### TODO #25: Review your work and check for errors
+    a) Inside the likePhoto() function, add the following code snippet
+    
+     
+        document.getElementById("likeCount1").innerHTML = counter1;
+
+Look over this code and see if you can figure out what's going on. Here are the basics: 
+ * jQuery is calling a function called getElementById and passing in a parameter of "likeCount1", which is the id
+present on the element in the opening tag of the HTML element. Go check it out.  
+ * This function gets that HTML element and then jQuery allows us to change parts of that element, including what's called the "innerHTML"
+ * So, this code snippet you just copied assigns a new value to the innerHTML of that div that is equal to the counter1 variable.
+ 
+    
+     b) Test out the function by saving your work in Gitpod, refreshing the index.html page, and clicking
+     the Like btn underneath the first photo. 
+    
+     
+        document.getElementById("likeCount1").innerHTML = counter1;
+
+
+#### TODO #24: Modify the likePhoto function so it works on any button
+Notice that the buttons below photos 2 through 5 don't work. How can you modify the function so that
+it works for any photo? Consider these three questions below.  
+
+    a) Can you add a parameter to the function that allows you to increase the counter of each photo?
+    b) How can you use a conditional so that each counter is increased, depending on the likeBtn pushed?
+    c) Can you modify the jQuery code so that it changes the right HTML for each corresponding photo?
+    d) What needs to be added to each function call in HTML?
+
+#### TODO #25: Now, add a user object 
+Below the likePhoto() function, add an object called user. It should contain the following keys:
+ - name_first
+ - name_last
+ - followers, which should be an array of at least 5 names
+ - profile-image, which should be a string of a photo url that you want to be your profile picture. 
+
+
+    a) Create your object with those keys and add your own values so that the object is complete.
+    b) Now go to the index.html file and add the following tags below the <h5>Sharing the World's Cats</h5>
+    
+    
+       
+       <div id="name"></div>
+       <div id="name_last"></div>
+       <div id="followers"></div>
+       <img id="profile_pic">
+
+       
+    a) Now, inside the brain.js file, add the following code snippet:
+       
+        
+      setTimeout(function(){ document.getElementById("name").innerHTML = user.name;}, 3000);
+      setTimeout(function(){ document.getElementById("name_last").innerHTML = user.name_last;}, 3000);
+      setTimeout(function(){ document.getElementById("followers").innerHTML = "Followers: " + user.num_followers.length;}, 3000);
+      setTimeout(function(){ $("#profile_pic").attr("src", user.img_src);}, 3000);
+
+Look at each of those code snippets and see if you can understand what is happening. You have not yet learned
+what a setTimeout is, but basically it means that we are purposefully adding a delay to when these functions are called
+in order to allow the HTML to be set by the javascript. You'll learn more about this in the advanced class. For now, see if you can
+look at the jQuery and understand how we're using the object to adjust our HTML. 
+
+####Challenge
+Go look at the picture below. Can you add some CSS to get your Catstagram looking like instagram.com? Consider the bullet points below:
+
+ <img src="img/messi.png" style="max-height: 450px">
+
+ * Look at the CSS property border-radius to adjust your profile picture
+ * Add a bio to your user object and to your HTML and then add some jQuery inside of a setTimeout function to display your bio on your Catstagram.
+ * Look into flexbox to see how you can adjust the CSS in order to place your profile picture to the left of your name and bio. 
+
+
+#### TODO #26: Review your work and check for errors
 A good developer always reviews her work before she commits it. Review all of your work and check for the following:
 
     * Correct syntax in javascript
@@ -143,7 +163,7 @@ A good developer always reviews her work before she commits it. Review all of yo
     * All TODOs are complete
     
     
-#### TODO #26: Push your code to Github
+#### TODO #27: Push your code to Github
     * First, open a terminal window by clicking at the top Window > New Terminal
     * Then run each of the following commands one by one:
         * ```git add .  ``` then hit Enter. Don't forget the ```.```
