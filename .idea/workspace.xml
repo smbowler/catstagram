@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8769fa6d-4b63-4c7b-8ef2-915bf05e5133" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/img/head_tag.png" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/CSS/README.md" afterPath="$PROJECT_DIR$/CSS/README.md" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change beforePath="$PROJECT_DIR$/javascript/README.md" afterPath="$PROJECT_DIR$/javascript/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -58,14 +54,14 @@
         <entry file="file://$PROJECT_DIR$/javascript/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="480">
-                <caret line="136" column="1" lean-forward="false" selection-start-line="136" selection-start-column="1" selection-end-line="136" selection-end-column="1" />
+              <first_editor relative-caret-position="300">
+                <caret line="124" column="1" lean-forward="false" selection-start-line="124" selection-start-column="1" selection-end-line="124" selection-end-column="1" />
                 <folding>
-                  <marker date="1620311898000" expanded="true" signature="600:609" ph="h4: ######## TODO ##19: Find/Fi...rrors" />
-                  <marker date="1620311898000" expanded="true" signature="669:956" ph="As you get deeper into...only." />
-                  <marker date="1620311898000" expanded="true" signature="2976:3723" ph="Ok, we've done a few t...ipt. " />
-                  <marker date="1620311898000" expanded="true" signature="4672:7509" ph="h4: ######## TODO ##23: Connect...Query" />
-                  <marker date="1620311898000" expanded="true" signature="7509:7510" ph="h4: ######## TODO ##24: Check o...Likes" />
+                  <marker date="1620311986000" expanded="true" signature="600:609" ph="h4: ######## TODO ##19: Find/Fi...rrors" />
+                  <marker date="1620311986000" expanded="true" signature="669:956" ph="As you get deeper into...only." />
+                  <marker date="1620311986000" expanded="true" signature="2976:3723" ph="Ok, we've done a few t...ipt. " />
+                  <marker date="1620311986000" expanded="true" signature="4672:7502" ph="h4: ######## TODO ##23: Connect...Query" />
+                  <marker date="1620311986000" expanded="true" signature="7502:7503" ph="h4: ######## TODO ##24: Check o...Likes" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -247,11 +243,18 @@
       <option name="project" value="LOCAL" />
       <updated>1620145197579</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Edits based on Ashton's feedback">
+      <created>1620311927303</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1620311927303</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75021000" />
+    <option name="totallyTimeSpent" value="75100000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -314,7 +317,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Getting projects ready for students" />
-    <option name="LAST_COMMIT_MESSAGE" value="Getting projects ready for students" />
+    <MESSAGE value="Edits based on Ashton's feedback" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edits based on Ashton's feedback" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -344,11 +348,11 @@
           <first_editor relative-caret-position="2085">
             <caret line="139" column="20" lean-forward="false" selection-start-line="139" selection-start-column="20" selection-end-line="139" selection-end-column="20" />
             <folding>
-              <marker date="1620311898000" expanded="true" signature="600:609" ph="h4: ######## TODO ##19: Find/Fi...rrors" />
-              <marker date="1620311898000" expanded="true" signature="669:956" ph="As you get deeper into...only." />
-              <marker date="1620311898000" expanded="true" signature="2976:3723" ph="Ok, we've done a few t...ipt. " />
-              <marker date="1620311898000" expanded="true" signature="4672:7509" ph="h4: ######## TODO ##23: Connect...Query" />
-              <marker date="1620311898000" expanded="true" signature="7509:7510" ph="h4: ######## TODO ##24: Check o...Likes" />
+              <marker date="1620311986000" expanded="true" signature="600:609" ph="h4: ######## TODO ##19: Find/Fi...rrors" />
+              <marker date="1620311986000" expanded="true" signature="669:956" ph="As you get deeper into...only." />
+              <marker date="1620311986000" expanded="true" signature="2976:3723" ph="Ok, we've done a few t...ipt. " />
+              <marker date="1620311986000" expanded="true" signature="4672:7502" ph="h4: ######## TODO ##23: Connect...Query" />
+              <marker date="1620311986000" expanded="true" signature="7502:7503" ph="h4: ######## TODO ##24: Check o...Likes" />
             </folding>
           </first_editor>
           <second_editor />
@@ -436,11 +440,11 @@
           <first_editor relative-caret-position="2175">
             <caret line="145" column="13" lean-forward="false" selection-start-line="145" selection-start-column="13" selection-end-line="145" selection-end-column="13" />
             <folding>
-              <marker date="1620311898000" expanded="true" signature="600:609" ph="h4: ######## TODO ##19: Find/Fi...rrors" />
-              <marker date="1620311898000" expanded="true" signature="669:956" ph="As you get deeper into...only." />
-              <marker date="1620311898000" expanded="true" signature="2976:3723" ph="Ok, we've done a few t...ipt. " />
-              <marker date="1620311898000" expanded="true" signature="4672:7509" ph="h4: ######## TODO ##23: Connect...Query" />
-              <marker date="1620311898000" expanded="true" signature="7509:7510" ph="h4: ######## TODO ##24: Check o...Likes" />
+              <marker date="1620311986000" expanded="true" signature="600:609" ph="h4: ######## TODO ##19: Find/Fi...rrors" />
+              <marker date="1620311986000" expanded="true" signature="669:956" ph="As you get deeper into...only." />
+              <marker date="1620311986000" expanded="true" signature="2976:3723" ph="Ok, we've done a few t...ipt. " />
+              <marker date="1620311986000" expanded="true" signature="4672:7502" ph="h4: ######## TODO ##23: Connect...Query" />
+              <marker date="1620311986000" expanded="true" signature="7502:7503" ph="h4: ######## TODO ##24: Check o...Likes" />
             </folding>
           </first_editor>
           <second_editor />
@@ -516,11 +520,11 @@
           <first_editor relative-caret-position="2175">
             <caret line="145" column="13" lean-forward="false" selection-start-line="145" selection-start-column="13" selection-end-line="145" selection-end-column="13" />
             <folding>
-              <marker date="1620311898000" expanded="true" signature="600:609" ph="h4: ######## TODO ##19: Find/Fi...rrors" />
-              <marker date="1620311898000" expanded="true" signature="669:956" ph="As you get deeper into...only." />
-              <marker date="1620311898000" expanded="true" signature="2976:3723" ph="Ok, we've done a few t...ipt. " />
-              <marker date="1620311898000" expanded="true" signature="4672:7509" ph="h4: ######## TODO ##23: Connect...Query" />
-              <marker date="1620311898000" expanded="true" signature="7509:7510" ph="h4: ######## TODO ##24: Check o...Likes" />
+              <marker date="1620311986000" expanded="true" signature="600:609" ph="h4: ######## TODO ##19: Find/Fi...rrors" />
+              <marker date="1620311986000" expanded="true" signature="669:956" ph="As you get deeper into...only." />
+              <marker date="1620311986000" expanded="true" signature="2976:3723" ph="Ok, we've done a few t...ipt. " />
+              <marker date="1620311986000" expanded="true" signature="4672:7502" ph="h4: ######## TODO ##23: Connect...Query" />
+              <marker date="1620311986000" expanded="true" signature="7502:7503" ph="h4: ######## TODO ##24: Check o...Likes" />
             </folding>
           </first_editor>
           <second_editor />
@@ -579,11 +583,11 @@
           <first_editor relative-caret-position="2175">
             <caret line="145" column="13" lean-forward="false" selection-start-line="145" selection-start-column="13" selection-end-line="145" selection-end-column="13" />
             <folding>
-              <marker date="1620311898000" expanded="true" signature="600:609" ph="h4: ######## TODO ##19: Find/Fi...rrors" />
-              <marker date="1620311898000" expanded="true" signature="669:956" ph="As you get deeper into...only." />
-              <marker date="1620311898000" expanded="true" signature="2976:3723" ph="Ok, we've done a few t...ipt. " />
-              <marker date="1620311898000" expanded="true" signature="4672:7509" ph="h4: ######## TODO ##23: Connect...Query" />
-              <marker date="1620311898000" expanded="true" signature="7509:7510" ph="h4: ######## TODO ##24: Check o...Likes" />
+              <marker date="1620311986000" expanded="true" signature="600:609" ph="h4: ######## TODO ##19: Find/Fi...rrors" />
+              <marker date="1620311986000" expanded="true" signature="669:956" ph="As you get deeper into...only." />
+              <marker date="1620311986000" expanded="true" signature="2976:3723" ph="Ok, we've done a few t...ipt. " />
+              <marker date="1620311986000" expanded="true" signature="4672:7502" ph="h4: ######## TODO ##23: Connect...Query" />
+              <marker date="1620311986000" expanded="true" signature="7502:7503" ph="h4: ######## TODO ##24: Check o...Likes" />
             </folding>
           </first_editor>
           <second_editor />
@@ -748,14 +752,14 @@
     <entry file="file://$PROJECT_DIR$/javascript/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="480">
-            <caret line="136" column="1" lean-forward="false" selection-start-line="136" selection-start-column="1" selection-end-line="136" selection-end-column="1" />
+          <first_editor relative-caret-position="300">
+            <caret line="124" column="1" lean-forward="false" selection-start-line="124" selection-start-column="1" selection-end-line="124" selection-end-column="1" />
             <folding>
-              <marker date="1620311898000" expanded="true" signature="600:609" ph="h4: ######## TODO ##19: Find/Fi...rrors" />
-              <marker date="1620311898000" expanded="true" signature="669:956" ph="As you get deeper into...only." />
-              <marker date="1620311898000" expanded="true" signature="2976:3723" ph="Ok, we've done a few t...ipt. " />
-              <marker date="1620311898000" expanded="true" signature="4672:7509" ph="h4: ######## TODO ##23: Connect...Query" />
-              <marker date="1620311898000" expanded="true" signature="7509:7510" ph="h4: ######## TODO ##24: Check o...Likes" />
+              <marker date="1620311986000" expanded="true" signature="600:609" ph="h4: ######## TODO ##19: Find/Fi...rrors" />
+              <marker date="1620311986000" expanded="true" signature="669:956" ph="As you get deeper into...only." />
+              <marker date="1620311986000" expanded="true" signature="2976:3723" ph="Ok, we've done a few t...ipt. " />
+              <marker date="1620311986000" expanded="true" signature="4672:7502" ph="h4: ######## TODO ##23: Connect...Query" />
+              <marker date="1620311986000" expanded="true" signature="7502:7503" ph="h4: ######## TODO ##24: Check o...Likes" />
             </folding>
           </first_editor>
           <second_editor />
