@@ -108,8 +108,9 @@ Below the likePhoto() function, add an object called user. It should contain the
  - profile-image, which should be a string of a photo url that you want to be your profile picture. 
 
 
-    a) Create your object with those keys and add your own values so that the object is complete.
-    b) Now go to the index.html file and add the following tags below the h5 tag that says  "Sharing the World's Cats"
+        a) Create your object with those keys and add your own values so that the object is complete.
+    
+        b) Now go to the index.html file and add the following tags below the h5 tag that says  "Sharing the World's Cats"
     
     
        
@@ -117,8 +118,6 @@ Below the likePhoto() function, add an object called user. It should contain the
        <div id="name_last"></div>
        <div id="followers"></div>
        <img id="profile_pic">
-
-
 
 
 
