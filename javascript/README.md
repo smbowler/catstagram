@@ -120,7 +120,7 @@ Below the likePhoto() function, add an object called user. It should contain the
        <img id="profile_pic">
 
    
-    c) Now, inside the brain.js file, add the following code snippet:
+   c) Now, inside the brain.js file, add the following code snippet:
        
         
     
