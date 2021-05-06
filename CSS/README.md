@@ -12,7 +12,7 @@ We have already done some coding. From the options below, what have we built so 
 
 1. Javascript
 2. Database
-3. HTML
+3. **HTML**
 4. CSS
 5. All of the Above
 
@@ -29,7 +29,7 @@ that will make Catstagram look modern.
     c) Add an opening and closing  <style></style>  tags
     d) Now, "open up" the <style> tag by putting your cursor in between the opening and closing tags
     and pressing enter. It should look like this: 
-<img src="../img/open_style_tag.png" style="max-height: 450px">
+<img src="../img/head_tag.png" style="max-height: 450px">
     
     e) Save your work in Gitpod
 
@@ -61,24 +61,24 @@ space underneath each of captions.
                margin-bottom: 70px
     c) Now add this class to each of the 5 paragraph tags below. 
     c) Save your work in Gitpod
-    d) Return to Chrome and refresh the page. You should see space underneath all of your caption
+    d) Return to Chrome and refresh the page. You should see space underneath all of your captions
     
     
 #### TODO #13: Open the Console and Select an Element
 When we are working with CSS, it is really helpful to use the Developer Tools to experiment 
 with different styles. In order to do this, follow the steps below:
 
-    a) Right click the page and select "Inspect"
-    b) Click on the icon in the top left corner of the Inspect Tools window. When
+    a) Right click the page and select "Inspect." If you are working with a Chrome Book, you might not have this capability, in which case just read through this next section.
+    b) Click on the box with the aray icon in the top left corner of the Inspect Tools window. When
     you have selected it, it will turn blue like below:
 <img src="../img/inspect_tool.png" style="max-height: 450px">
 
-    c) Once that icon is blue, hover over the caption on your Catstagram page. It
+    c) Once that icon is blue, hover over one of the captions on your Catstagram page. It
     will turn a different color, like below:
 <img src="../img/hover_over.png" style="max-height: 450px">
 
     d) Click on the caption and then look in the bottom section of the 
-    Developer Tools. You should see your css rule called .comment, like below:
+    Developer Tools. You should see your css rule called .caption, like below:
 <img src="../img/caption.png" style="max-height: 450px">
 
     e) Now click on the property value, where it says "70px" and using your up and down arrow keys,
@@ -91,9 +91,9 @@ We want to center everything, so that the images, like count, and caption are in
 In order to do this, we're going to put everything inside of a  ```<div></div>``` and then we're going to add some 
 style rules to that ```<div>```
 
-    a) Below the  closing </nav> at the top of the index.html file, add an opening <div>
+    a) Below the  <h5> Subtitle at the top of the index.html file, add an opening <div>
     b) After the the caption of your LAST photo, add the closing tag </div>
-    c) Highlight everything inside the opening and closing <div> </div> tags, and press indent,
+    c) Highlight everything inside these new opening and closing <div> </div> tags, and press indent,
     so that it is clear to see that the <div> is the parent tag of all of this content. 
     d) Next, add a class to the opening tag of the <div> called "pic-container" 
     e) Add a rule in the <style></style> tag in the <head> that looks like this:
@@ -129,10 +129,6 @@ A good developer always reviews her work before she commits it. Review all of yo
     * Make sure there are semi-colons at the end of each property
     * All TODOs are complete
     
-    
-#### TODO #17: Open the reflection.html page and answer the questions
-
-    * Below each question, add a <p> tag and answer the question to the best of your ability. 
     
     
 #### TODO #18: Push your code to Github

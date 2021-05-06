@@ -33,18 +33,15 @@ at our file tree in Gitpod or scroll-up and look at the repo in Github. They are
         * This folder contains the README for Part III of this project that deals with styling Catstagram. 
         When you're ready to start Part III, navigate to the CSS folder and scroll down to see the README file, 
         just like you did when you opened up this repo.
-    * **javascript folder:**
-        * This folder contains the README for Part IV of this project, when you are going to give
-        Catstagram some functionality using javascript. 
-    * **index.html page:**
-        * This is the page that the browser loads and is the file that you should preview when you want to see this application or any application
-    * **reflection.html**
-        * This file contains questions that we'll be answering as we move through this project. When there is
-        a reflection question, you will add your question inside of a  paragraph ````<p>/</p>```` tag.
     *  **img folder**:
         * This is a folder that contains images that are used throughout this README and images that you will use in this project (specifically the heart icon from Instagram).
+    * **javascript folder:**
+        * This folder contains the README for Part IV of this project, when you are going to give
+        Catstagram some functionality using javascript.
     * **favicon.ico**
         * This is the icon that appears on the tab in the browser. It stands for "favorite icon"
+    * **index.html page:**
+        * This is the page that the browser loads and is the file that you should preview when you want to see this application or any application
     * **README**
         * This is the file that you are reading right now, that describes what this project is all about and how to proceed through it.   
 
@@ -62,7 +59,7 @@ at our file tree in Gitpod or scroll-up and look at the repo in Github. They are
  * It's important that everyone working on software be able to save their work in one place, so that everyone
  can know what progress has been made. 
  * Github allows developers to save their code so that everyone can see it.
-#### When do "push code"?
+#### When do you "push code"?
   * When you are ready to take a project live so that it will show up on your portfolio website, you will "push" your code up to your Github repository by following the instructions below.
   
  #### How do you use it?
@@ -78,6 +75,7 @@ at our file tree in Gitpod or scroll-up and look at the repo in Github. They are
     * ```git push``` then press Enter. 
  * If you successfully ran these commands one at a time, your terminal window should look like this after you run the ```git push``` command :
  <img src="img/successful_push.png" style="max-height: 450px">
+ * Now, go to your portfolio URL (githubUserName.github.io), inspect the page (right click  > inspect), refresh, and you should see your changes. 
 
  
  
@@ -96,6 +94,10 @@ There are **7** TODOs in Part I. Complete each one!
     d) Ask the question: 
         * Was I right? Am I seeing what I expected to see?
     e) Fix the errors in the html
+    
+You are going to see some <script></script> files in the <head></head>. Since these files are in the <head>, they are not
+visible to the user. These <script> files tell the index.html that there are some other files that this application needs, namely
+a brain.js file and the javascript library called jQuery, which we'll learn about later. 
 
 
 ## Part II: Build The Structure of Catstagram with HTML
@@ -104,17 +106,16 @@ from the applicaiton, i.e. see pics of cats!
 
 #### TODO # 2: Add Basic HTML
     a) Open the "index.html" file in the file tree
-    b) Inside the  <body> </body>, but above the <nav></nav> tags add an  <h1></h1>  and name the site "Catsagram"
+    b) Inside the  <body> </body>, delete the content inside the <h1> that says "THIS SHOULD BE VISIBLE TO YOU."
+    c) Inside that <h1> add the site name "Catsagram." Save. You should see 'Catstagram' visible on your site now. 
     c) Below the h1 title, add an <h5></h5> and add the caption "Sharing the World's cats" 
-    d) Below the <h5></h5>, add an empty <div></div> with an id of "userName"
     d) Save your work in Gitpod
     e) Return to Chrome and refresh the page. You should see a title and tagline for Catstagram
-    f) Now, return to the code and delete the h1 that says "This should be visible to you!". We don't need that anymore. 
 
     
     
 #### TODO #3: Add One Cat Image from a Source URL
-    a) Below the <nav></nav tag, write a code comment that says <!--Cat Photo 1-->. This is to help us organize our code. 
+    a) Below the <h5> tag, write a code comment that says <!--Cat Photo 1-->. This is to help us organize our code. 
     b) Now, create an <img> tag underneath that code comment
     c) Add an attribute inside the opening <img> tag for 'src'
     d) Search Google for an image of a cat, right click on the image, and select "copy image address"
@@ -122,23 +123,22 @@ from the applicaiton, i.e. see pics of cats!
     it looks like this  src="https://i.pinimg.com/originals/3b/4f/55/3b4f55f606f04ed5300d1bcf589c010e.jpg"
     f) Make sure this url ends in either .png or .jpg
     g) Save your work in Gitpod
-    h) Return to Chrome and refresh the page. You should see your image on the website
+    h) Return to Chrome and refresh the page. You should see your image on the website. It might be big or small, depending
+    on the size of the image that you chose. 
  
 #### Investigate and Discuss
 
-Next, let's make sure we've added everything to goes along with a photo on Instagram. 
-
-* Look at the photo below.
-* What else is associated with each photo?
-* Where is each element located?
-    * A # of Likes
-    * A caption
+Next, let's make sure we've added everything that goes along with a photo on Instagram. Look at the photo below. What else is associated with each photo? 
+Where is each element located?
+    * Like Button
+    * Like Count
+    * Caption
 
 <img src="img/ig_screenshot.png" style="max-height: 450px">
     
         
         
-#### TODO #4: Add Like Count, Like Button, and Caption underneath the photo
+#### TODO #4: Add Like Button, Like Count, and Caption underneath the photo
     * Underneath the  <img>  tag, add the following code snippet:
    
  ````
@@ -149,10 +149,10 @@ Next, let's make sure we've added everything to goes along with a photo on Insta
     
     * Underneath the  <button>  tag, add a  <p></p>  with a caption. Get creative!
     * Save your work in Gitpod
-    * Return to Chrome and refresh the page. You should see a like count and a caption underneath the photo
+    * Return to Chrome and refresh the page. You should see a like count, button, and a caption underneath the photo
 
 #### TODO #5: Add 4 More Cat Pics with Like Count, Like Button, and Captions
-    * Underneath the image, like button, and caption, add four more images following the same steps as above, make sure each
+    * Underneath the first image, like button, and caption, add four more images following the same steps as above, make sure each
     photo you are including the following:
         * a caption
         * a div with an id="likeCount" with the number of the photo it is, i.e. likeCount1, likeCount2,likeCount3, etc. 
@@ -173,6 +173,7 @@ A good developer always reviews her work before she commits it.
     * All 5 images are showing up
     * All 5 images have a likeCount div with the correct corresponding number
     * All 5 images have a likeBtn 
+    * All 5 images have a caption 
     * All TODOs are complete
 
     

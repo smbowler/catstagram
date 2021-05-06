@@ -8,41 +8,29 @@ We're making progress. From the options below, what have we built so far?
 
 1. Javascript
 2. Database
-3. HTML
-4. CSS
+3. **HTML**
+4. **CSS**
 5. All of the Above
 
 Yes, we have already built the **structure and content** of the website, the HTML, and we have **styled** it using CSS. 
 Next, in order to make the site have functionality, from the list above what language are we going to use? 
-
-
-#### TODO # 18: Open the Developer Tools, Navigate to Console tab
-    a) Right click the page and select "Inspect"
-    b) Choose the tab labeled "Console"
-
-
-#### TODO #19: Find/Fix the Errors
-Do you see any errors in the console? You should see an error that looks like this:
-
- <img src="../img/console_error.png" style="max-height: 450px">
-
-
-    a) Read the error, find what line the error is on, click on the link to the brain.js file
-    b) Go back to Gitpod, remove the error so that the javascript file is empty.
-    c) Save your work in Gitpod by typing "Ctrl S" or File > Save
-    d) Return to Chrome and refresh the page. Recheck the console for errors. You should see a no more error on line 1 of brain.js.
     
     
 #### TODO #20: Add an onClick function to the FIRST Button
 As you get deeper into Javascript, you'll learn more about different ways to 
 connect the HTML and Javascript together, including learning about frameworks that make this 
-easy. For now, we're going to add a simple onClick function into the opening tag of the **FIRST** ```<button>``` only.
+easy. For now, we're going to add a simple onClick event into the opening tag of the **FIRST** ```<button>``` only. After 
+we add this onClick function into the button tag, we'll actually build the function in TODO #21. 
 
     a) Inside the opening <button> tag of the FIRST photo only, add the following code:
          onClick="likePhoto()"
     b) Confirm that the button element now looks like this:
            <button onClick="likePhoto()">Like</button>
     c) Save your work in Gitpod
+    
+The onClick event  is added into the opening tag of HTML elements and it allows you to 
+execute a function anytime that element is clicked. In this case, we've added
+it to a button.  
     
 
 #### TODO #21: Write the function to be performed onClick
@@ -52,7 +40,8 @@ write the function called  ```likePhoto``` in the brain.js file
     a) Navigate to brain.js in Giptod
     b) Write a function called "likePhoto" that prints the word "Like" to the console.
     c) Save your work in Gitpod
-    d) Navigate to Chrome, inspect the page, open the console and test the function!
+    d) Navigate to Chrome and press the button of the first photo to test the function!
+    d) If you are able to inspect the page, do so and open the console tab. 
     e) You should see the word "like" printed to the console each time you press the button, like this:
   
    <img src="../img/console_like.png" style="max-height: 450px">
@@ -74,7 +63,7 @@ it keeps track of the number of likes on each photo. How can we do this?
 #### TODO #23: Connect the Javascript to the HTML, using JQUERY.  
 Ok, we've done a few things now to give Catstagram some functionality:
    * We've written a function called likePhoto that we call when we click the first Like button on the first photo.  
-   * We've added a variable called "counter" to keep track of the likes
+   * We've added a variable called "counter1" to keep track of the likes
    * We've confirmed that our function and counter are working because we are printing to the console
 
 Now that we know this, we are going to connect our javascript code with our HTML code, so that
@@ -104,10 +93,10 @@ present on the element in the opening tag of the HTML element. Go check it out.
 
 #### TODO #24: Modify the likePhoto function so it works on any button
 Notice that the buttons below photos 2 through 5 don't work. How can you modify the function so that
-it works for any photo? Consider these three questions below.  
+it works for any photo? Consider these questions below.  
 
-    a) Can you add a parameter to the function that allows you to increase the counter of each photo?
-    b) How can you use a conditional so that each counter is increased, depending on the likeBtn pushed?
+    a) Can you add a parameter to the function that allows you to increase the count of not just counter1, but counter2, counter3, etc?
+    b) How can you use a conditional so that the counter of each photo is increased, depending on the likeBtn pushed?
     c) Can you modify the jQuery code so that it changes the right HTML for each corresponding photo?
     d) What needs to be added to each function call in HTML?
 
@@ -120,7 +109,7 @@ Below the likePhoto() function, add an object called user. It should contain the
 
 
     a) Create your object with those keys and add your own values so that the object is complete.
-    b) Now go to the index.html file and add the following tags below the <h5>Sharing the World's Cats</h5>
+    b) Now go to the index.html file and add the following tags below the <h5> that says  "Sharing the World's Cats"
     
     
        
@@ -130,13 +119,14 @@ Below the likePhoto() function, add an object called user. It should contain the
        <img id="profile_pic">
 
        
-    a) Now, inside the brain.js file, add the following code snippet:
+    c) Now, inside the brain.js file, add the following code snippet:
        
         
-      setTimeout(function(){ document.getElementById("name").innerHTML = user.name;}, 3000);
-      setTimeout(function(){ document.getElementById("name_last").innerHTML = user.name_last;}, 3000);
-      setTimeout(function(){ document.getElementById("followers").innerHTML = "Followers: " + user.num_followers.length;}, 3000);
-      setTimeout(function(){ $("#profile_pic").attr("src", user.img_src);}, 3000);
+    
+    setTimeout(function(){ document.getElementById("name").innerHTML = user.name;}, 3000);
+    setTimeout(function(){ document.getElementById("name_last").innerHTML = user.name_last;}, 3000);
+    setTimeout(function(){ document.getElementById("followers").innerHTML = "Followers: " + user.num_followers.length;}, 3000);
+    setTimeout(function(){ $("#profile_pic").attr("src", user.img_src);}, 3000);
 
 Look at each of those code snippets and see if you can understand what is happening. You have not yet learned
 what a setTimeout is, but basically it means that we are purposefully adding a delay to when these functions are called
@@ -144,7 +134,7 @@ in order to allow the HTML to be set by the javascript. You'll learn more about 
 look at the jQuery and understand how we're using the object to adjust our HTML. 
 
 #### Challenge
-Go look at the picture below. Can you add some CSS to get your Catstagram looking like instagram.com? Consider the bullet points below:
+Look at the picture below. Can you add some CSS to get your Catstagram looking like instagram.com? Consider the bullet points below:
 
  <img src="../img/messi.png" style="max-height: 450px">
 
