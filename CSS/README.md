@@ -25,50 +25,48 @@ our ```index.html``` file. Inside of the opening and closing ```style``` tags, w
 that will make Catstagram look modern. 
 
     a) Locate the  <head>  tag
-    b) Locate inside the  <head>  tag, underneath the  <script></script>  tag
-    c) Add an opening and closing  <style></style>  tags
+    b) Within the <head>  tag, navigate to the line underneath the  <script></script> tag
+    c) Add a set of opening and closing  <style></style>  tags
     d) Now, "open up" the <style> tag by putting your cursor in between the opening and closing tags
     and pressing enter. It should look like this: 
 <img src="../img/head_tag.png" style="max-height: 450px">
     
-    e) Save your work in Gitpod
+    e) We are going to pass in some style rules to style our page in the next ToDo, but for now, save your work in Gitpod
 
  
 #### TODO #10: Style the Title and Subtitle
 
     a) Inside the  <style>  tag, add a class called "brand-font" that has one property 
     of font-style with a value of 'italic'. Don't forget the semi-colon at the end!
-    b) Add that class inside the opening tag of your <h1> and <h5> tags
-    c) Save your work in Gitpod
-    d) Return to Chrome and refresh the page. You should see your Title and Sub-title in italics
+    b) Add a class attribute of the same name inside the opening tag of your <h1> and <h5> tags
+    c) Save your work in Gitpod and then refresh your preview. You should see your title and sub-title in italics
 
 #### TODO #11: Style the Images
 
     a) Inside the `<style>` tag, add a CSS rule for all <img> tags that makes all images the same width:
         * Selects a property of "width"
         * With a value of 300px
-    b) Save your work in Gitpod
-    c) Return to Chrome and refresh the page. You should see all of your pics have the same width
+    b) Save your work in Gitpod and then refresh your preview. You should see all of your pics have the same width
 
 #### TODO #12: Add Some Space Underneath the Captions
+
 When you look at your Catstagram, it is kind of hard to tell which captions
 are with which photos. In order to make this more clear, we're going to add some 
 space underneath each of captions. 
 
-    a) Inside the <style> tag, add a class called ".caption". Don't forget the period before
-    the class name!
-    b) The class `.caption` should set the following rule:
+    a) Inside the <style> tag, add style rule with a class selector called ".caption". (Don't forget the period before
+    the class name!)
+    b) The selector `.caption` should set the following rule as a property within its code block:
                margin-bottom: 70px
-    c) Now add this class to each of the 5 paragraph tags below. 
-    c) Save your work in Gitpod
-    d) Return to Chrome and refresh the page. You should see space underneath all of your captions
+    c) Now add this class attribute to each of the 5 paragraph tags you created below within your <body>. 
+    c) Save your work in Gitpod and then refresh your preview. You should see space underneath all of your captions
     
     
 #### TODO #13: Open the Console and Select an Element
 When we are working with CSS, it is really helpful to use the Developer Tools to experiment 
-with different styles. In order to do this, follow the steps below:
+with different styles. In order to do this, follow the steps below within your Google Chrome browser:
 
-    a) Right click the page and select "Inspect." If you are working with a Chrome Book, you might not have this capability, in which case just read through this next section.
+    a) Right click the page and select "Inspect." (If you are working with a Chromebook, you might not have this capability, in which case just read through this next section.)
     b) Click on the box with the aray icon in the top left corner of the Inspect Tools window. When
     you have selected it, it will turn blue like below:
 <img src="../img/inspect_tool.png" style="max-height: 450px">
@@ -91,12 +89,12 @@ We want to center everything, so that the images, like count, and caption are in
 In order to do this, we're going to put everything inside of a  ```<div></div>``` and then we're going to add some 
 style rules to that ```<div>```
 
-    a) Below the  <h5> Subtitle at the top of the index.html file, add an opening <div>
+    a) Below the <h5> element that is holding your subtitle at the top of the index.html file, add an opening <div>
     b) After the the caption of your LAST photo, add the closing tag </div>
     c) Highlight everything inside these new opening and closing <div> </div> tags, and press indent,
     so that it is clear to see that the <div> is the parent tag of all of this content. 
-    d) Next, add a class to the opening tag of the <div> called "pic-container" 
-    e) Add a rule in the <style></style> tag in the <head> that looks like this:
+    d) Next, add a class attribute to the opening tag of the <div> with the label "pic-container" 
+    e) Add a rule inside of the <style></style> tags in the <head> that looks like this:
     
         
        .pic-container {
@@ -117,7 +115,7 @@ Now, have some fun with the style of your Catstagram application. Below is a non
         
     
 #### TODO #16: Review your work and check for errors
-A good developer always reviews her work before she commits it. Review all of your work and check for the following:
+A good developer always reviews their work before they commits it. Review all of your work and check for the following:
 
     * Correct indentation in the CSS rules
     * Ensure the page looks like it is supposed to look:
@@ -125,8 +123,8 @@ A good developer always reviews her work before she commits it. Review all of yo
         * Images are the same width
         * There is space under each caption
         * All content is centered
-    images are centered
-    * Make sure there are semi-colons at the end of each property
+    * Images are centered
+    * There are semi-colons at the end of each property
     * All TODOs are complete
     
     
