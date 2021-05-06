@@ -109,7 +109,7 @@ Below the likePhoto() function, add an object called user. It should contain the
 
 
     a) Create your object with those keys and add your own values so that the object is complete.
-    b) Now go to the index.html file and add the following tags below the <h5> that says  "Sharing the World's Cats"
+    b) Now go to the index.html file and add the following tags below the h5 tag that says  "Sharing the World's Cats"
     
     
        
