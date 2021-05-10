@@ -127,8 +127,8 @@ Below the likePhoto() function, add an object called user. It should contain the
     
         setTimeout(function(){ document.getElementById("name").innerHTML = user.name;}, 3000);
         setTimeout(function(){ document.getElementById("name_last").innerHTML = user.name_last;}, 3000);
-        setTimeout(function(){ document.getElementById("followers").innerHTML = "Followers: " + user.num_followers.length;}, 3000);
-        setTimeout(function(){ $("#profile_pic").attr("src", user.img_src);}, 3000);
+        setTimeout(function(){ document.getElementById("followers").innerHTML = "Followers: " + user.followers.length;}, 3000);
+        setTimeout(function(){ $("#profile_pic").attr("src", user.profile_pic);}, 3000);
 
 Look at each of those code snippets and see if you can understand what is happening. You have not yet learned
 what a setTimeout is, but basically it means that we are purposefully adding a delay to when these functions are called
