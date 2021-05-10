@@ -13,7 +13,7 @@ We're making progress. From the options below, what have we built so far?
 5. All of the Above
 
 Yes, we have already built the **structure and content** of the website, the HTML, and we have **styled** it using CSS. 
-Next, in order to make the site have functionality, from the list above what language are we going to use? 
+Next, we need to make the site have functionality. From the list above what language do you feel we are we going to use? 
     
     
 #### TODO #20: Add an onClick function to the FIRST Button
@@ -35,12 +35,12 @@ it to a button.
 
 #### TODO #21: Write the function to be performed onClick
 Now that we've added this function to the opening tag of the first button, we need to 
-write the function called  ```likePhoto``` in the brain.js file
+definte the function called  ```likePhoto``` in the brain.js file in order for us to use it!
 
-    a) Navigate to brain.js in Giptod
+    a) Navigate to brain.js in your Gitpod workspace (located in the javascript folder)
     b) Write a function called "likePhoto" that prints the word "Like" to the console.
     c) Save your work in Gitpod
-    d) Navigate to Chrome and press the button of the first photo to test the function!
+    d) Navigate to your preview and press the button of the first photo to test the function! 
     d) If you are able to inspect the page, do so and open the console tab. 
     e) You should see the word "like" printed to the console each time you press the button, like this:
   
@@ -54,17 +54,16 @@ it keeps track of the number of likes on each photo. How can we do this?
 
     a) Inside the brain.js file, above your likePhoto function, add a variable called "counter1" and give it a value of zero 
     b) Modify your likePhoto function so that it increases the counter by one each time the function is called
-    c) Instead of printing "like" to the console, now print the counter variable. 
-    c) Save your work in Gitpod
-    d) Return to Chrome and open the console to see if the variable counter is increasing.
-
+    c) Instead of printing "like" to the console, now print the counter variable to your console. 
+    c) Save your work in Gitpod and run your preview. You should see your counter value increasing in your console. 
 
     
 #### TODO #23: Connect the Javascript to the HTML, using JQUERY.  
-Ok, we've done a few things now to give Catstagram some functionality:
+
+Ok, we've done a few things now to give Catstagram some functionality. To sum up what we've done:
    * We've written a function called likePhoto that we call when we click the first Like button on the first photo.  
    * We've added a variable called "counter1" to keep track of the likes
-   * We've confirmed that our function and counter are working because we are printing to the console
+   * We've confirmed that our function and counter are working because we are printing to the console and to our website. 
 
 Now that we know this, we are going to connect our javascript code with our HTML code, so that
 when you click the like button, you will actually see the number of likes below each photo. In order to do this,
@@ -72,7 +71,7 @@ we're going to use a library called JQuery. The basic idea behind JQuery is call
 it allows you to change the HTML using javascript. 
 
 
-    a) Inside the likePhoto() function, add the following code snippet
+    a) Inside the likePhoto() function, add the following code snippet underneath your code that is already there
     
      
         document.getElementById("likeCount1").innerHTML = counter1;
@@ -96,16 +95,17 @@ Notice that the buttons below photos 2 through 5 don't work. How can you modify 
 it works for any photo? Consider these questions below.  
 
     a) Can you add a parameter to the function that allows you to increase the count of not just counter1, but counter2, counter3, etc?
-    b) How can you use a conditional so that the counter of each photo is increased, depending on the likeBtn pushed?
-    c) Can you modify the jQuery code so that it changes the right HTML for each corresponding photo?
-    d) What needs to be added to each function call in HTML?
+    b) What could you add to each img element to clearly identify the number of each photo? Does adding a class or id seem appropriate here?
+    c) How can you use a conditional so that the counter of each photo is increased, depending on which photo's like button is pushed?
+    d) Can you modify the jQuery code so that it grabs the correct HTML div for each corresponding photo?
+    e) What needs to be added to each call to your onClick() function in HTML?
 
 #### TODO #25: Now, add a user object 
 Below the likePhoto() function, add an object called user. It should contain the following keys:
  - name_first
  - name_last
  - followers, which should be an array of at least 5 names
- - profile-image, which should be a string of a photo url that you want to be your profile picture. 
+ - profile_pic, which should be a string of a photo url that you want to be your profile picture. 
 
 
         a) Create your object with those keys and add your own values so that the object is complete.
