@@ -102,7 +102,7 @@ it works for any photo? Consider these questions below.
 
 #### TODO #25: Now, add a user object 
 Below the likePhoto() function, add an object called user. It should contain the following keys:
- - name_first
+ - name
  - name_last
  - followers, which should be an array of at least 5 names
  - profile_pic, which should be a string of a photo url that you want to be your profile picture. 
