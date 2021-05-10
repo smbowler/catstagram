@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8769fa6d-4b63-4c7b-8ef2-915bf05e5133" name="Default" comment="">
+    <list default="true" id="8769fa6d-4b63-4c7b-8ef2-915bf05e5133" name="Default" comment="Addition instructions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/javascript/README.md" afterPath="$PROJECT_DIR$/javascript/README.md" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,18 +17,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="2640">
-                <caret line="176" column="33" lean-forward="false" selection-start-line="176" selection-start-column="33" selection-end-line="176" selection-end-column="33" />
+              <first_editor relative-caret-position="180">
+                <caret line="12" column="51" lean-forward="false" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
                 <folding>
-                  <marker date="1620660550000" expanded="true" signature="3263:3650" ph="unordered list:  * Just like when you ...rive." />
-                  <marker date="1620660550000" expanded="true" signature="3899:4828" ph="unordered list:  * First, go to Window...0px&quot;&gt;" />
-                  <marker date="1620660550000" expanded="true" signature="5031:5187" ph="Below you will find in... one!" />
-                  <marker date="1620660550000" expanded="true" signature="10843:10844" ph="```git commit -m 'inse...ter. " />
-                  <marker date="1620660550000" expanded="true" signature="10843:11057" ph="unordered list:   * ```git add .  ``` ...0px&quot;&gt;" />
+                  <marker date="1620680920000" expanded="true" signature="3458:3845" ph="unordered list:  * Just like when you ...rive." />
+                  <marker date="1620680920000" expanded="true" signature="4094:5023" ph="unordered list:  * First, go to Window...0px&quot;&gt;" />
+                  <marker date="1620680920000" expanded="true" signature="5226:5382" ph="Below you will find in... one!" />
+                  <marker date="1620680920000" expanded="true" signature="11038:11039" ph="```git commit -m 'inse...ter. " />
+                  <marker date="1620680920000" expanded="true" signature="11038:11252" ph="unordered list:   * ```git add .  ``` ...0px&quot;&gt;" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -49,14 +49,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javascript/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="638">
                 <caret line="129" column="110" lean-forward="false" selection-start-line="129" selection-start-column="110" selection-end-line="129" selection-end-column="110" />
                 <folding>
-                  <marker date="1620666554000" expanded="true" signature="371:498" ph="Yes, we have already b...use? " />
+                  <marker date="1620679833000" expanded="true" signature="371:498" ph="Yes, we have already b...use? " />
                 </folding>
               </first_editor>
               <second_editor />
@@ -123,11 +123,11 @@
         <option value="$PROJECT_DIR$/complete.html" />
         <option value="$PROJECT_DIR$/reflection.html" />
         <option value="$PROJECT_DIR$/index2.html" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/CSS/README.md" />
         <option value="$PROJECT_DIR$/javascript/brains.js" />
         <option value="$PROJECT_DIR$/javascript/README.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -169,11 +169,6 @@
             <path>
               <item name="catstagram" type="b2602c69:ProjectViewProjectNode" />
               <item name="catstagram" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="catstagram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="catstagram" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="catstagram" type="b2602c69:ProjectViewProjectNode" />
@@ -294,11 +289,18 @@
       <option name="project" value="LOCAL" />
       <updated>1620312126717</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Edits based on Ashton's feedback">
+      <created>1620666562602</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1620666562602</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75624000" />
+    <option name="totallyTimeSpent" value="77119000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -311,6 +313,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="129" y="23" width="1388" height="1467" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18215069" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939634" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -319,7 +322,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27696794" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27696794" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -394,7 +397,7 @@
           <first_editor relative-caret-position="2085">
             <caret line="139" column="20" lean-forward="false" selection-start-line="139" selection-start-column="20" selection-end-line="139" selection-end-column="20" />
             <folding>
-              <marker date="1620666554000" expanded="true" signature="371:498" ph="Yes, we have already b...use? " />
+              <marker date="1620679833000" expanded="true" signature="371:498" ph="Yes, we have already b...use? " />
             </folding>
           </first_editor>
           <second_editor />
@@ -407,11 +410,11 @@
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding>
-              <marker date="1620660550000" expanded="true" signature="3263:3650" ph="unordered list:  * Just like when you ...rive." />
-              <marker date="1620660550000" expanded="true" signature="3899:4828" ph="unordered list:  * First, go to Window...0px&quot;&gt;" />
-              <marker date="1620660550000" expanded="true" signature="5031:5187" ph="Below you will find in... one!" />
-              <marker date="1620660550000" expanded="true" signature="10843:10844" ph="```git commit -m 'inse...ter. " />
-              <marker date="1620660550000" expanded="true" signature="10843:11057" ph="unordered list:   * ```git add .  ``` ...0px&quot;&gt;" />
+              <marker date="1620680920000" expanded="true" signature="3458:3845" ph="unordered list:  * Just like when you ...rive." />
+              <marker date="1620680920000" expanded="true" signature="4094:5023" ph="unordered list:  * First, go to Window...0px&quot;&gt;" />
+              <marker date="1620680920000" expanded="true" signature="5226:5382" ph="Below you will find in... one!" />
+              <marker date="1620680920000" expanded="true" signature="11038:11039" ph="```git commit -m 'inse...ter. " />
+              <marker date="1620680920000" expanded="true" signature="11038:11252" ph="unordered list:   * ```git add .  ``` ...0px&quot;&gt;" />
             </folding>
           </first_editor>
           <second_editor />
@@ -445,11 +448,11 @@
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding>
-              <marker date="1620660550000" expanded="true" signature="3263:3650" ph="unordered list:  * Just like when you ...rive." />
-              <marker date="1620660550000" expanded="true" signature="3899:4828" ph="unordered list:  * First, go to Window...0px&quot;&gt;" />
-              <marker date="1620660550000" expanded="true" signature="5031:5187" ph="Below you will find in... one!" />
-              <marker date="1620660550000" expanded="true" signature="10843:10844" ph="```git commit -m 'inse...ter. " />
-              <marker date="1620660550000" expanded="true" signature="10843:11057" ph="unordered list:   * ```git add .  ``` ...0px&quot;&gt;" />
+              <marker date="1620680920000" expanded="true" signature="3458:3845" ph="unordered list:  * Just like when you ...rive." />
+              <marker date="1620680920000" expanded="true" signature="4094:5023" ph="unordered list:  * First, go to Window...0px&quot;&gt;" />
+              <marker date="1620680920000" expanded="true" signature="5226:5382" ph="Below you will find in... one!" />
+              <marker date="1620680920000" expanded="true" signature="11038:11039" ph="```git commit -m 'inse...ter. " />
+              <marker date="1620680920000" expanded="true" signature="11038:11252" ph="unordered list:   * ```git add .  ``` ...0px&quot;&gt;" />
             </folding>
           </first_editor>
           <second_editor />
@@ -473,7 +476,7 @@
           <first_editor relative-caret-position="2175">
             <caret line="145" column="13" lean-forward="false" selection-start-line="145" selection-start-column="13" selection-end-line="145" selection-end-column="13" />
             <folding>
-              <marker date="1620666554000" expanded="true" signature="371:498" ph="Yes, we have already b...use? " />
+              <marker date="1620679833000" expanded="true" signature="371:498" ph="Yes, we have already b...use? " />
             </folding>
           </first_editor>
           <second_editor />
@@ -504,11 +507,11 @@
           <first_editor relative-caret-position="975">
             <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
             <folding>
-              <marker date="1620660550000" expanded="true" signature="3263:3650" ph="unordered list:  * Just like when you ...rive." />
-              <marker date="1620660550000" expanded="true" signature="3899:4828" ph="unordered list:  * First, go to Window...0px&quot;&gt;" />
-              <marker date="1620660550000" expanded="true" signature="5031:5187" ph="Below you will find in... one!" />
-              <marker date="1620660550000" expanded="true" signature="10843:10844" ph="```git commit -m 'inse...ter. " />
-              <marker date="1620660550000" expanded="true" signature="10843:11057" ph="unordered list:   * ```git add .  ``` ...0px&quot;&gt;" />
+              <marker date="1620680920000" expanded="true" signature="3458:3845" ph="unordered list:  * Just like when you ...rive." />
+              <marker date="1620680920000" expanded="true" signature="4094:5023" ph="unordered list:  * First, go to Window...0px&quot;&gt;" />
+              <marker date="1620680920000" expanded="true" signature="5226:5382" ph="Below you will find in... one!" />
+              <marker date="1620680920000" expanded="true" signature="11038:11039" ph="```git commit -m 'inse...ter. " />
+              <marker date="1620680920000" expanded="true" signature="11038:11252" ph="unordered list:   * ```git add .  ``` ...0px&quot;&gt;" />
             </folding>
           </first_editor>
           <second_editor />
@@ -534,7 +537,7 @@
           <first_editor relative-caret-position="2175">
             <caret line="145" column="13" lean-forward="false" selection-start-line="145" selection-start-column="13" selection-end-line="145" selection-end-column="13" />
             <folding>
-              <marker date="1620666554000" expanded="true" signature="371:498" ph="Yes, we have already b...use? " />
+              <marker date="1620679833000" expanded="true" signature="371:498" ph="Yes, we have already b...use? " />
             </folding>
           </first_editor>
           <second_editor />
@@ -555,11 +558,11 @@
           <first_editor relative-caret-position="975">
             <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
             <folding>
-              <marker date="1620660550000" expanded="true" signature="3263:3650" ph="unordered list:  * Just like when you ...rive." />
-              <marker date="1620660550000" expanded="true" signature="3899:4828" ph="unordered list:  * First, go to Window...0px&quot;&gt;" />
-              <marker date="1620660550000" expanded="true" signature="5031:5187" ph="Below you will find in... one!" />
-              <marker date="1620660550000" expanded="true" signature="10843:10844" ph="```git commit -m 'inse...ter. " />
-              <marker date="1620660550000" expanded="true" signature="10843:11057" ph="unordered list:   * ```git add .  ``` ...0px&quot;&gt;" />
+              <marker date="1620680920000" expanded="true" signature="3458:3845" ph="unordered list:  * Just like when you ...rive." />
+              <marker date="1620680920000" expanded="true" signature="4094:5023" ph="unordered list:  * First, go to Window...0px&quot;&gt;" />
+              <marker date="1620680920000" expanded="true" signature="5226:5382" ph="Below you will find in... one!" />
+              <marker date="1620680920000" expanded="true" signature="11038:11039" ph="```git commit -m 'inse...ter. " />
+              <marker date="1620680920000" expanded="true" signature="11038:11252" ph="unordered list:   * ```git add .  ``` ...0px&quot;&gt;" />
             </folding>
           </first_editor>
           <second_editor />
@@ -585,7 +588,7 @@
           <first_editor relative-caret-position="2175">
             <caret line="145" column="13" lean-forward="false" selection-start-line="145" selection-start-column="13" selection-end-line="145" selection-end-column="13" />
             <folding>
-              <marker date="1620666554000" expanded="true" signature="371:498" ph="Yes, we have already b...use? " />
+              <marker date="1620679833000" expanded="true" signature="371:498" ph="Yes, we have already b...use? " />
             </folding>
           </first_editor>
           <second_editor />
@@ -598,11 +601,11 @@
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding>
-              <marker date="1620660550000" expanded="true" signature="3263:3650" ph="unordered list:  * Just like when you ...rive." />
-              <marker date="1620660550000" expanded="true" signature="3899:4828" ph="unordered list:  * First, go to Window...0px&quot;&gt;" />
-              <marker date="1620660550000" expanded="true" signature="5031:5187" ph="Below you will find in... one!" />
-              <marker date="1620660550000" expanded="true" signature="10843:10844" ph="```git commit -m 'inse...ter. " />
-              <marker date="1620660550000" expanded="true" signature="10843:11057" ph="unordered list:   * ```git add .  ``` ...0px&quot;&gt;" />
+              <marker date="1620680920000" expanded="true" signature="3458:3845" ph="unordered list:  * Just like when you ...rive." />
+              <marker date="1620680920000" expanded="true" signature="4094:5023" ph="unordered list:  * First, go to Window...0px&quot;&gt;" />
+              <marker date="1620680920000" expanded="true" signature="5226:5382" ph="Below you will find in... one!" />
+              <marker date="1620680920000" expanded="true" signature="11038:11039" ph="```git commit -m 'inse...ter. " />
+              <marker date="1620680920000" expanded="true" signature="11038:11252" ph="unordered list:   * ```git add .  ``` ...0px&quot;&gt;" />
             </folding>
           </first_editor>
           <second_editor />
@@ -625,11 +628,11 @@
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding>
-              <marker date="1620660550000" expanded="true" signature="3263:3650" ph="unordered list:  * Just like when you ...rive." />
-              <marker date="1620660550000" expanded="true" signature="3899:4828" ph="unordered list:  * First, go to Window...0px&quot;&gt;" />
-              <marker date="1620660550000" expanded="true" signature="5031:5187" ph="Below you will find in... one!" />
-              <marker date="1620660550000" expanded="true" signature="10843:10844" ph="```git commit -m 'inse...ter. " />
-              <marker date="1620660550000" expanded="true" signature="10843:11057" ph="unordered list:   * ```git add .  ``` ...0px&quot;&gt;" />
+              <marker date="1620680920000" expanded="true" signature="3458:3845" ph="unordered list:  * Just like when you ...rive." />
+              <marker date="1620680920000" expanded="true" signature="4094:5023" ph="unordered list:  * First, go to Window...0px&quot;&gt;" />
+              <marker date="1620680920000" expanded="true" signature="5226:5382" ph="Below you will find in... one!" />
+              <marker date="1620680920000" expanded="true" signature="11038:11039" ph="```git commit -m 'inse...ter. " />
+              <marker date="1620680920000" expanded="true" signature="11038:11252" ph="unordered list:   * ```git add .  ``` ...0px&quot;&gt;" />
             </folding>
           </first_editor>
           <second_editor />
@@ -676,23 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="2640">
-            <caret line="176" column="33" lean-forward="false" selection-start-line="176" selection-start-column="33" selection-end-line="176" selection-end-column="33" />
-            <folding>
-              <marker date="1620660550000" expanded="true" signature="3263:3650" ph="unordered list:  * Just like when you ...rive." />
-              <marker date="1620660550000" expanded="true" signature="3899:4828" ph="unordered list:  * First, go to Window...0px&quot;&gt;" />
-              <marker date="1620660550000" expanded="true" signature="5031:5187" ph="Below you will find in... one!" />
-              <marker date="1620660550000" expanded="true" signature="10843:10844" ph="```git commit -m 'inse...ter. " />
-              <marker date="1620660550000" expanded="true" signature="10843:11057" ph="unordered list:   * ```git add .  ``` ...0px&quot;&gt;" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/open_style_tag.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -709,6 +695,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="638">
+            <caret line="129" column="110" lean-forward="false" selection-start-line="129" selection-start-column="110" selection-end-line="129" selection-end-column="110" />
+            <folding>
+              <marker date="1620679833000" expanded="true" signature="371:498" ph="Yes, we have already b...use? " />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -720,13 +719,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/README.md">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="638">
-            <caret line="129" column="110" lean-forward="false" selection-start-line="129" selection-start-column="110" selection-end-line="129" selection-end-column="110" />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="180">
+            <caret line="12" column="51" lean-forward="false" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
             <folding>
-              <marker date="1620666554000" expanded="true" signature="371:498" ph="Yes, we have already b...use? " />
+              <marker date="1620680920000" expanded="true" signature="3458:3845" ph="unordered list:  * Just like when you ...rive." />
+              <marker date="1620680920000" expanded="true" signature="4094:5023" ph="unordered list:  * First, go to Window...0px&quot;&gt;" />
+              <marker date="1620680920000" expanded="true" signature="5226:5382" ph="Below you will find in... one!" />
+              <marker date="1620680920000" expanded="true" signature="11038:11039" ph="```git commit -m 'inse...ter. " />
+              <marker date="1620680920000" expanded="true" signature="11038:11252" ph="unordered list:   * ```git add .  ``` ...0px&quot;&gt;" />
             </folding>
           </first_editor>
           <second_editor />

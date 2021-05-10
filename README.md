@@ -1,6 +1,13 @@
 # Catstagram  <img src="favicon.ico" style="max-height: 30px">
 A full-stack of a web-based application, modeled after Instagram but with cats. 
 
+## Instructions for Installing Catstagram
+1. Open new terminal
+2. git clone https://github.com/OperationSpark/catstagram
+3. cp -r catstagram projects/.
+4. cd projects/catstagram
+5. rm -rf .git*
+
 ## First, Answer This Question
 *Start here young padouan and riddle us this question:*
 * Do you use Instagram, Twitch, or Soundcloud, or any other web application? Do you *actually* know how they work? **PAUSE.**
