@@ -81,7 +81,7 @@ at our file tree in Gitpod or scroll-up and look at the repo in Github. They are
  
 ## Part II: Preview index.html + Check for errors
 Below you will find instructions on what TODO to build Catstagram. Take each bulletpoint one by one. Work in Google Chrome. 
-There are **7** TODOs in Part I. Complete each one!
+There are **7** TODOs in Part II. Complete each one!
 
 
 #### TODO #1: Investigate/Preview Index.html file
@@ -90,7 +90,7 @@ There are **7** TODOs in Part I. Complete each one!
         * Do I know what each of these lines of html do?
         * What should I expect to see when I preview this file? *Hint: What's inside the body tag?*
         * Do I see any errors, any opening tags or closing tags that are wrong?
-    c) Right click on the file index.html and click "Preview with LiveServer" or "Preview"
+    c) Right click on the file index.html and click "Preview with LiveServer" (if you have installed the LiveServer extension) or "Preview"
     d) Ask the question: 
         * Was I right? Am I seeing what I expected to see?
     e) Fix the errors in the html
@@ -100,28 +100,28 @@ visible to the user. These <script> files tell the index.html that there are som
 a brain.js file and the javascript library called jQuery, which we'll learn about later. 
 
 
-## Part II: Build The Structure of Catstagram with HTML
+## Part II continued: Build The Structure of Catstagram with HTML
 Next you will build the structure of Catstagram so that you and your users can start to get value
 from the applicaiton, i.e. see pics of cats!
 
 #### TODO # 2: Add Basic HTML
     a) Open the "index.html" file in the file tree
-    b) Inside the  <body> </body>, delete the content inside the <h1> that says "THIS SHOULD BE VISIBLE TO YOU."
-    c) Inside that <h1> add the site name "Catsagram." Save. You should see 'Catstagram' visible on your site now. 
-    c) Below the h1 title, add an <h5></h5> and add the caption "Sharing the World's cats" 
+    b) Inside the  <body> </body>, delete the content inside the <h1> element that says "THIS SHOULD BE VISIBLE TO YOU."
+    c) Inside that <h1> element, add the site name "Catsagram." Save. You should see 'Catstagram' visible on your site now. 
+    c) Below the h1 holding your title, add an <h5></h5> element with the caption "Sharing the World's cats" 
     d) Save your work in Gitpod
-    e) Return to Chrome and refresh the page. You should see a title and tagline for Catstagram
+    e) Refresh the preview page of your index file. You should see a title and tagline for Catstagram
 
     
     
 #### TODO #3: Add One Cat Image from a Source URL
-    a) Below the <h5> tag, write a code comment that says <!--Cat Photo 1-->. This is to help us organize our code. 
+    a) Below the <h5> tag, write a code comment that says <!--Cat Photo 1-->. This comment helps us organize our code and understand what we are putting where. 
     b) Now, create an <img> tag underneath that code comment
     c) Add an attribute inside the opening <img> tag for 'src'
     d) Search Google for an image of a cat, right click on the image, and select "copy image address"
     e) Inside the opening  <img>  tag, find the  'src'  tag and paste the url of the cat image so that 
     it looks like this  src="https://i.pinimg.com/originals/3b/4f/55/3b4f55f606f04ed5300d1bcf589c010e.jpg"
-    f) Make sure this url ends in either .png or .jpg
+    f) Make sure this url ends in either .png or .jpg otherwise your image will not pull up!
     g) Save your work in Gitpod
     h) Return to Chrome and refresh the page. You should see your image on the website. It might be big or small, depending
     on the size of the image that you chose. 
@@ -149,27 +149,28 @@ Where is each element located?
     
     * Underneath the  <button>  tag, add a  <p></p>  with a caption. Get creative!
     * Save your work in Gitpod
-    * Return to Chrome and refresh the page. You should see a like count, button, and a caption underneath the photo
+    * Refresh your preview. You should see a like count, button, and a caption underneath the photo
 
 #### TODO #5: Add 4 More Cat Pics with Like Count, Like Button, and Captions
-    * Underneath the first image, like button, and caption, add four more images following the same steps as above, make sure each
-    photo you are including the following:
+    * Underneath the first image, like button, and caption, add four more images following the same steps as above. You want to make sure each
+    photo you are including has the following:
         * a caption
-        * a div with an id="likeCount" with the number of the photo it is, i.e. likeCount1, likeCount2,likeCount3, etc. 
-        * a button with an id="likeBtn" . 
-    * Each time you add a photo, save your workspace in Gitpod, and you should see your cat images, like counts, and captions show up in a column just like Instagram. Don't worry if your images are different sizes. 
-    We'll fix this later with CSS. 
-    * It's also best practice to add a code comment above each new photo, like below, so that it's easy to see where one photo stops
+        * a div with an id="likeCount" with the number of the photo it is (i.e. likeCount1, likeCount2,likeCount3, etc.) 
+        * a button with an id="likeBtn" numbered similarly like your likeCount id attribute (i.e. likeBtn1, likeBtn2, etc.)
+        * It's also best practice to add a code comment above each new photo, like below, so that it's easy to see where one photo stops
     and the other continues
-        <!--Cat Photo 2-->
+        <!--Cat Photo 2-->  
+    
+    * Each time you add a photo, save your workspace in Gitpod, and you should see your cat images, like buttons, and captions show up in a column just like Instagram. Don't worry if your images are different sizes. We'll fix this later with CSS. 
+    
     
     
 #### TODO #6: Review your work and check for errors
-A good developer always reviews her work before she commits it. 
+A good developer always reviews their work before proceeding to commit it. Put on your good developer hat and verify that you have done the following:
 
     * Correct indentation
     * Opening and closing tags (except for img tag)
-    * Spelling/grammer mistakes
+    * Corrected spelling/grammer mistakes
     * All 5 images are showing up
     * All 5 images have a likeCount div with the correct corresponding number
     * All 5 images have a likeBtn 
@@ -178,12 +179,12 @@ A good developer always reviews her work before she commits it.
 
     
 #### TODO #7: Push your code to Github
-* First, open a terminal window by clicking at the top Window > New Terminal
+* First, if your terminal isn't currently open, open a terminal window by clicking at the top: **Window > New Terminal**
 * Then run each of the following commands one by one:
-    * ```git add .  ``` then hit Enter. Don't forget the ```.```
+    * ```git add .  ``` then hit Enter. _Don't forget the ```.```_
     * ```git commit -m 'insert specific message about what you are saving'``` 
           This second command can be tricky.You want to write a message inside the qoutation marks that describes what you are changing. 
-          Think of this as a sticky note message. Press Enter. 
+          Think of this as a sticky note message. Then hit Enter.  
     * ```git push``` then press Enter. 
     * If you successfully ran these commands one at a time, your terminal window should look like this:
        <img src="img/successful_push.png" style="max-height: 450px">
